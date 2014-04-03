@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta property="description" content="Efficient topic modelling of text semantics in Python." />
+    <meta property="og:title" content="gensim: topic modelling for humans" />
+    <meta property="og:description" content="Efficient topic modelling in Python" />
+
+    
+      <title>gensim: corpora.hashdictionary – Construct word&lt;-&gt;id mappings</title>
+
+    
+  <link rel="stylesheet" href="../_static/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/jquery.qtip.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/anythingslider.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-24066335-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
+  </head>
+
+  <body>
+    <div id="topwrap">
+      
+      <div id="top1">
+        <div id="left1">
+          <h1 class="h1gensim">
+            <img src="../_static/images/logo-gensim_compact.png" alt="gensim logo" title="Gensim - topic modelling for humans" />
+          </h1>
+        </div>
+
+        <div id="middleright">
+          <div id="middle1">
+            <div id="gensim"><a href="../index.html"><img src="../_static/images/gensim_compact.png" alt="gensim" title="Gensim home" /></a></div>
+            <div id="tagline"><img src="../_static/images/tagline_compact.png" alt="gensim tagline" /></div>
+          </div>
+          <div id="right1">
+          </div>
+        </div>
+      </div>
+     
+
+      
+      <div id="menu">
+        <div id="indentation1">
+          <ul class="menubuttons">
+            <li class="menubutton"><a href="../index.html">Home</a></li>
+            <li class="menubutton"><a href="../tutorial.html">Tutorials</a></li>
+            <li class="menubutton"><a href="../install.html">Install</a></li>
+            <li class="menubutton"><a href="../support.html">Support</a></li>
+            <li class="menubutton"><a href="../apiref.html">API</a></li>
+            <li class="menubutton"><a href="../about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+      
+
+      <div class="clearer"></div>
+    </div>
+
+    
+  <script type="text/javascript">
+  var DOCUMENTATION_OPTIONS = {
+    URL_ROOT: '../',
+    VERSION: '0.8.9',
+    COLLAPSE_INDEX: false,
+    FILE_SUFFIX: '.html',
+    HAS_SOURCE: true
+  };
+  </script>
+    <script type="text/javascript" src="../_static/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery.qtip.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-migrate-1.1.1.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery.anythingslider.min.js"></script>
+
+    
+    <div class="document">
+      
+        <div id="thinbanner">
+          <div id="bodythinbanner">
+            <span class="h2gensim">corpora.hashdictionary – Construct word&lt;-&gt;id mappings</span>
+          </div>
+        </div>
+        <div class="obsah">
+          <div class="obsahwrapper">
+            
+  <div class="section" id="module-gensim.corpora.hashdictionary">
+<span id="corpora-hashdictionary-construct-word-id-mappings"></span><h1><tt class="xref py py-mod docutils literal"><span class="pre">corpora.hashdictionary</span></tt> &#8211; Construct word&lt;-&gt;id mappings<a class="headerlink" href="#module-gensim.corpora.hashdictionary" title="Permalink to this headline">¶</a></h1>
+<p>This module implements the concept of HashDictionary &#8211; a mapping between words
+and their integer ids. The ids are computed as <cite>hash(word) % id_range</cite>, the idea
+being that new words can be represented immediately, without an extra pass through
+the corpus to collect all the ids first. See <a class="reference external" href="http://en.wikipedia.org/wiki/Hashing-Trick">http://en.wikipedia.org/wiki/Hashing-Trick</a> .</p>
+<p>This means that, unline plain Dictionary, several words may map to the same id
+(~hash collisions). The word&lt;-&gt;id mapping is no longer a bijection.</p>
+<dl class="class">
+<dt id="gensim.corpora.hashdictionary.HashDictionary">
+<em class="property">class </em><tt class="descclassname">gensim.corpora.hashdictionary.</tt><tt class="descname">HashDictionary</tt><big>(</big><em>documents=None</em>, <em>id_range=32000</em>, <em>myhash=&lt;built-in function adler32&gt;</em>, <em>debug=True</em><big>)</big><a class="headerlink" href="#gensim.corpora.hashdictionary.HashDictionary" title="Permalink to this definition">¶</a></dt>
+<dd><p>HashDictionary encapsulates the mapping between normalized words and their
+integer ids.</p>
+<p>Unlike <cite>Dictionary</cite>, building a <cite>HashDictionary</cite> before using it is not a necessary
+step. The documents can be computed immediately, from an uninitialized <cite>HashDictionary</cite>,
+without seeing the rest of the corpus first.</p>
+<p>The main function is <cite>doc2bow</cite>, which converts a collection of words to its
+bag-of-words representation: a list of (word_id, word_frequency) 2-tuples.</p>
+<p>By default, keep track of debug statistics and mappings. If you find yourself
+running out of memory (or are sure you don&#8217;t need the debug info), set
+<cite>debug=False</cite>.</p>
+<dl class="method">
+<dt id="gensim.corpora.hashdictionary.HashDictionary.add_documents">
+<tt class="descname">add_documents</tt><big>(</big><em>documents</em><big>)</big><a class="headerlink" href="#gensim.corpora.hashdictionary.HashDictionary.add_documents" title="Permalink to this definition">¶</a></dt>
+<dd><p>Build dictionary from a collection of documents. Each document is a list
+of tokens = <strong>tokenized and normalized</strong> utf-8 encoded strings.</p>
+<p>This is only a convenience wrapper for calling <cite>doc2bow</cite> on each document
+with <cite>allow_update=True</cite>.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gensim.corpora.hashdictionary.HashDictionary.doc2bow">
+<tt class="descname">doc2bow</tt><big>(</big><em>document</em>, <em>allow_update=False</em>, <em>return_missing=False</em><big>)</big><a class="headerlink" href="#gensim.corpora.hashdictionary.HashDictionary.doc2bow" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert <cite>document</cite> (a list of words) into the bag-of-words format = list
+of <cite>(token_id, token_count)</cite> 2-tuples. Each word is assumed to be a
+<strong>tokenized and normalized</strong> utf-8 encoded string. No further preprocessing
+is done on the words in <cite>document</cite>; apply tokenization, stemming etc. before
+calling this method.</p>
+<p>If <cite>allow_update</cite> or <cite>self.allow_update</cite> is set, then also update dictionary
+in the process: update overall corpus statistics and document frequencies.
+For each id appearing in this document, increase its document frequency
+(<cite>self.dfs</cite>) by one.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gensim.corpora.hashdictionary.HashDictionary.filter_extremes">
+<tt class="descname">filter_extremes</tt><big>(</big><em>no_below=5</em>, <em>no_above=0.5</em>, <em>keep_n=100000</em><big>)</big><a class="headerlink" href="#gensim.corpora.hashdictionary.HashDictionary.filter_extremes" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove document frequency statistics for tokens that appear in</p>
+<ol class="arabic simple">
+<li>less than <cite>no_below</cite> documents (absolute number) or</li>
+<li>more than <cite>no_above</cite> documents (fraction of total corpus size, <em>not</em>
+absolute number).</li>
+<li>after (1) and (2), keep only the first <cite>keep_n</cite> most frequent tokens (or
+keep all if <cite>None</cite>).</li>
+</ol>
+<p><strong>Note:</strong> since HashDictionary&#8217;s id range is fixed and doesn&#8217;t depend on
+the number of tokens seen, this doesn&#8217;t really &#8220;remove&#8221; anything. It only
+clears some supplementary statistics, for easier debugging and a smaller RAM
+footprint.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gensim.corpora.hashdictionary.HashDictionary.keys">
+<tt class="descname">keys</tt><big>(</big><big>)</big><a class="headerlink" href="#gensim.corpora.hashdictionary.HashDictionary.keys" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of all token ids.</p>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="gensim.corpora.hashdictionary.HashDictionary.load">
+<em class="property">classmethod </em><tt class="descname">load</tt><big>(</big><em>fname</em><big>)</big><a class="headerlink" href="#gensim.corpora.hashdictionary.HashDictionary.load" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load a previously saved object from file (also see <cite>save</cite>).</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gensim.corpora.hashdictionary.HashDictionary.restricted_hash">
+<tt class="descname">restricted_hash</tt><big>(</big><em>token</em><big>)</big><a class="headerlink" href="#gensim.corpora.hashdictionary.HashDictionary.restricted_hash" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate id of the given token. Also keep track of what words were mapped
+to what ids, for debugging reasons.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gensim.corpora.hashdictionary.HashDictionary.save">
+<tt class="descname">save</tt><big>(</big><em>fname</em><big>)</big><a class="headerlink" href="#gensim.corpora.hashdictionary.HashDictionary.save" title="Permalink to this definition">¶</a></dt>
+<dd><p>Save the object to file via pickling (also see <cite>load</cite>).</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gensim.corpora.hashdictionary.HashDictionary.save_as_text">
+<tt class="descname">save_as_text</tt><big>(</big><em>fname</em><big>)</big><a class="headerlink" href="#gensim.corpora.hashdictionary.HashDictionary.save_as_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Save this HashDictionary to a text file, for easier debugging.</p>
+<p>The format is:
+<cite>id[TAB]document frequency of this id[TAB]tab-separated set of words in UTF8 that map to this id[NEWLINE]</cite>.</p>
+<p>Note: use <cite>save</cite>/<cite>load</cite> to store in binary format instead (pickle).</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      
+
+      <div class="clearer"></div>
+    </div>
+    
+
+    
+    <div id="footer">
+      <div id="footerwrapper">
+        <div id="footerleft">
+          <img src="../_static/images/logo-gensim.png" class="smallerlogo" alt="smaller gensim logo" />
+          <a href="../index.html"><img src="../_static/images/gensim-footer.png" alt="gensim footer image" title="Gensim home" /></a>
+          <div class="copyright">
+            &copy; Copyright 2009-2013, <a href="mailto:radimrehurek@seznam.cz" style="color:white"> Radim Řehůřek</a>
+            <br />
+              Last updated on Dec 26, 2013.
+          </div>
+        </div>
+
+        <div id="footermiddleright">
+          <div id="footermiddle">
+            <ul class="navigation">
+              <li><a href="../index.html">
+                Home
+              </a></li>
+              <li>|</li>
+              <li><a href="../tutorial.html">
+                Tutorials
+              </a></li>
+              <li>|</li>
+              <li><a href="../install.html">
+                Install
+              </a></li>
+              <li>|</li>
+              <li><a href="../support.html">
+                Support
+              </a></li>
+              <li>|</li>
+              <li><a href="../apiref.html">
+                API
+              </a></li>
+              <li>|</li>
+              <li><a href="../about.html">
+                About
+              </a></li>
+            </ul>
+
+            <div class="tweetodsazeni">
+              <div class="tweet">
+                <a href="https://twitter.com/radimrehurek" target="_blank" style="color: white">Tweet @RadimRehurek</a>
+              </div>
+            </div>
+
+          </div>
+
+          <div id="footerright">
+            <div class="footernadpis">
+              Support:
+            </div>
+            <div class="googlegroupsodsazeni">
+              <a href="https://groups.google.com/group/gensim" class="googlegroups">
+                Join the gensim discussion group
+              </a>
+
+              <form action="http://groups.google.com/group/gensim/boxsubscribe">
+                <input type="text" name="email" placeholder="your@email.com" size="28" />
+                <input type="submit" name="sub" value="Subscribe" />
+              </form>
+
+            </div>
+
+            <div class="addthis_toolbox addthis_default_style addthis_32x32_style"
+                addthis:title="#gensim"
+                addthis:description="Efficient Topic Modelling in Python"
+                style="margin:20px 0 0 0">
+              <a class="addthis_button_preferred_1"></a>
+              <a class="addthis_button_preferred_2"></a>
+              <a class="addthis_button_preferred_3"></a>
+              <a class="addthis_button_preferred_4"></a>
+              <a class="addthis_button_compact"></a>
+              <a class="addthis_counter addthis_bubble_style"></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+
+    <script type="text/javascript">
+      (function() {
+      var at = document.createElement('script'); at.type = 'text/javascript'; at.async = true;
+      at.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 's7.addthis.com/js/250/addthis_widget.js#pubid=ra-4d738b9b1d31ccbd';
+      var sat = document.getElementsByTagName('script')[0]; sat.parentNode.insertBefore(at, sat);
+      })();
+    </script>
+
+  </body>
+</html>

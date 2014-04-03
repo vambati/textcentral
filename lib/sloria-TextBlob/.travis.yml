@@ -1,0 +1,12 @@
+language: python
+python:
+    - "2.6"
+    - "2.7"
+    - "3.3"
+    - "pypy"
+# Install dependencies
+install:
+    - "pip install -U ."
+    - "python download_corpora.py"
+# Run tests
+script: "python run_tests.py"

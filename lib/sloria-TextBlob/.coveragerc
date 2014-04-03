@@ -1,0 +1,16 @@
+[run]
+include =
+    text*
+omit =
+    # Vendorized dependencies
+    *nltk*
+    *yaml*
+    *unicodecsv*
+    # Pattern.en code
+    text/en/__init__.py
+    text/_text.py
+    text/en/inflect.py
+
+[report]
+exclude_lines =
+    raise NotImplementedError
