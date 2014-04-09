@@ -8,7 +8,7 @@ pride: pride|proud|brag|bragging|bragged
 
 joy: joy|joyous|happiness|euphoria|high spirits|lovely|wonderful|gleeful|glad|"thank god"|"thank goodness"|"good news"|rhapsodic|ecstasy|enraptured|ecstatic|jubilation|festivity|celebration|celebrate|"cloud nine"|"walking on air"|rapture|blissful|thrill|excited
 
-nice: honey
+nice: honey|sweetie|cutie|dear
 
 surprise: surprise|surprised|surprising|unusual
 
@@ -36,7 +36,7 @@ festivals: festival|Christmas|"New year"|thanksgiving|halloween|diwali|carnival|
 
 love: beloved|valentine|romance|romantic|sweetheart|sweetie|sweetiepie|darling # removing "love" because monica has too much of it...
 
-vacations: holiday|vacation
+vacations: holiday|vacation|trip
 
 disappointment: disappoint|disappointed|disappoints|disappointment|disappointing|discontent|bummer|bummed|disgust|disgusted|misery|miserable|bitter|bitterness|backfire
 
@@ -58,9 +58,9 @@ contempt: contempt|contemptuous
 
 destructive: violence|destroy|disturbed|disturbing|disturbance|disturbances|ravage|bomb|explode|explosion|devastate|devastation
 
-hate: hate|loathe
+hate: hate|loathe|lose|suck|loser
 
-jealousy: jealous
+jealousy: jealous|J
 
 dislike: trouble|problem|lame|negative|terrible|dislike|yucky|unsavory|unsavoury|wrongful|vendetta|patronizing|crass|vulgar|sordid|devious|delusion|megalomania|neurotic|saddle|jackass|bozo|corrupt|worthless|plagiarize|henpecked|domineering|blasphemy|senile|reprehensible|"ill will"|unctuous|sloppy|obnoxious|noxious|noisome|supercilious|overbearing|torment|haughty|seedy|"wishy washy"|vain|vainglorious|quixotic|insidious|"hell pay"|vapid|stupid|idiot|moron|"swollen headed"|conceited|feckless|sadistic|"can worms"|sophistry
 

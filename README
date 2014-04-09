@@ -1,0 +1,79 @@
+-----------------
+Directories
+-----------------
+classification
+- Code related to multi-class classification
+
+cluster
+- Clustering
+- Co-clustering 
+
+graph
+- dataprocessing and format conversions 
+- social graph analytics 
+
+streaming
+- tfidf computation for stream texts
+- NLP based on streaming 
+
+ngram
+- Trending
+- Ngram and Language Modeling related code 
+
+semantics
+- Features related to semantics
+- Triplets on Dependency parsers 
+- Labeled Semantic Role Labeling 
+
+syntax
+- Parsing / POS tagging
+- NER etc (wrappers for Stanford etc?) 
+
+topic_modeling
+- Topic modeling approaches (LDA , Temporal LDA)
+- Hierarchical LDA etc 
+
+sentiment
+- Sentiment analysis using Lexicon approach
+- Machine learning / TFIDF approach
+
+spam
+- Spam detection based on Naive bayes (sample datasets provided)
+- Lexicon based spam detection (adult and profane lists) 
+
+utils
+- Utility functions for NLP (String processing?)
+- Utility for Social data gathering / Normalization
+- Utilities for machine learning (Sparse vector?) 
+
+viz
+- All visualization goes here 
+
+-----------------
+Deployment related directories
+-----------------
+
+data
+- Sample quick datasets 
+
+lib
+- libraries (e.g - NLTK, Wrappers etc) 
+
+hadoop
+- All streaming related mappers/reducers/combiners go here  
+
+-----------------
+Miscellaneous
+---------
+import_test.py
+json_parse.py
+sum_multiple_reducer.py
+sum_reducer.py
+twitter_mapper.py
+mapper.py
+txt
+x
+README
+agg_reducer.py
+attensity_freq.txt
+

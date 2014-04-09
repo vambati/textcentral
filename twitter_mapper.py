@@ -12,7 +12,8 @@ def read_input(file):
         # split the line into words
 	try:
 		# Attensity Json load
-		obj = json.loads(line,"ISO-8859-1");
+		#obj = json.loads(line,"ISO-8859-1");
+		obj = json.loads(line,"utf-8");
 		if(obj['content_subtype'] == 'twitter'):
 			user = obj['authors'][0]['screen_name']
 			text = obj['title']
@@ -23,14 +24,21 @@ def read_input(file):
 			user = user.encode('utf-8')
 			text = text.encode('utf-8')
 		
+			# Sentiment analysis
+			sent_text="0\t0\t0"
 			if(sentiment=='NEUTRAL'):
-				text="0\t0\t1"
+				sent_text="0\t0\t1"
 			elif(sentiment=='POSITIVE'):
-				text="1\t0\t0"
+				sent_text="1\t0\t0"
 			elif(sentiment=='NEGATIVE'):
-				text="0\t1\t0"
+				sent_text="0\t1\t0"
+			else:
+				sent_text="0\t0\t0"
 
 			yield user,date,text
+			#yield user,date,sent_text
+			#yield user,date,1
+
 	except Exception as e:
 		#print "error:",e.value
 		pass
@@ -65,7 +73,6 @@ if __name__ == "__main__":
 		user = line[0]
 		date = line[1]
 		text = line[2]
-		#text = 1
 
 		d1 = dateutil.parser.parse(date)
 		d = d1.astimezone(dateutil.tz.tzutc())
