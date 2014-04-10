@@ -16,24 +16,25 @@ import string
 
 def read_mapper_output(file, separator='\t'):
     for line in file:
-        yield line
-
+		yield line.rstrip().split(separator, 1)
 
 def mainproc(sentences):
-
-	bigram_measures = nltk.collocations.BigramAssocMeasures()
-	trigram_measures = nltk.collocations.TrigramAssocMeasures()
-
 	# change this to read in your data
 	words = [token for s in sentences for token  in s.lower().split()]
-        filtered_words = [w for w in words if not w in stopwords.words('english')]
-	finder = BigramCollocationFinder.from_words(filtered_words)
-
-	# only bigrams that appear 3+ times
-	finder.apply_freq_filter(2) 
-
-	# return the 10 n-grams with the highest PMI
-	return finder.nbest(bigram_measures.pmi, 10)  
+	filtered_words = [w for w in words if not w in stopwords.words('english')]
+	
+	# Create bi-grams
+	#finder = BigramCollocationFinder.from_words(filtered_words)	
+	finder = TrigramCollocationFinder.from_words(filtered_words)
+	
+	# Reduce noise by filtering for some frequency
+	finder.apply_freq_filter(5) 
+	
+	# Collocations with some association rules 
+	#assoc_measures = nltk.collocations.BigramAssocMeasures()	
+	assoc_measures = nltk.collocations.TrigramAssocMeasures()
+	
+	return finder.nbest(assoc_measures.pmi, 10)  
 	
 
 def main(separator='\t'):
@@ -41,9 +42,9 @@ def main(separator='\t'):
     data = read_mapper_output(sys.stdin, separator=separator)
     for current_word, group in groupby(data, itemgetter(0)):
         try:
-	    sens = list(group)
-	    res = mainproc(sens)
-	    print current_word,res
+			sens = [ s for current_word, s in group]
+			res = mainproc(sens)
+			print current_word,res
         except ValueError:
             # count was not a number, so silently discard this item
             pass

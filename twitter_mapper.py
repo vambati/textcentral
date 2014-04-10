@@ -23,6 +23,7 @@ def read_input(file):
 			# utf encoding 
 			user = user.encode('utf-8')
 			text = text.encode('utf-8')
+			text = text.strip()
 		
 			# Sentiment analysis
 			sent_text="0\t0\t0"
@@ -52,7 +53,7 @@ author_flag = False
 
 if __name__ == "__main__":
 	try:
-        	opts, args = getopt.getopt(sys.argv[1:],"h:t:")
+        	opts, args = getopt.getopt(sys.argv[1:],"h:at:")
 	except getopt.GetoptError:
       		print 'run_mapper.py [-m -w -d]'
       		exit(2)
@@ -62,7 +63,7 @@ if __name__ == "__main__":
 			'''aggregate at month level'''
 		    	flag = a
 		elif(o=='-a'):
-			'''help'''
+			'''aggregate at author level'''
 		    	author_flag = True
 		else:
 			assert False, "unhandled option"
@@ -77,7 +78,11 @@ if __name__ == "__main__":
 		d1 = dateutil.parser.parse(date)
 		d = d1.astimezone(dateutil.tz.tzutc())
 
-		if(flag=="d"):
+		# Output author and tweet 
+		if(author_flag is True):
+			print "@"+user,separator,text
+		# Ouptut tweets per time-frame (day | month | year)
+		elif(flag=="d"):
 			print d.year,d.month,d.day,separator,text
 		elif(flag=="m"):
 			print d.year,d.month,separator,text
