@@ -5,13 +5,14 @@ import sys
 import string
 
 # import stopwords file
-import os
-dir = os.path.dirname(__file__)
-filename = os.path.join(dir,'twitter/')
-sys.path.insert(0, filename)
+#import os
+#dir = os.path.dirname(__file__)
+#filename = os.path.join(dir,'twitter/')
+#sys.path.insert(0, filename)
 
-from normalizer import Tokenizer 
-import stopwords
+# import stopwords and twitter normalizer 
+from textcentral.utils import stopwords
+from textcentral.utils.twitter.normalizer import Tokenizer 
 
 # Reg-exes 
 REGEX = re.compile(r",\s*")

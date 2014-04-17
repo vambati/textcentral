@@ -5,11 +5,11 @@ from itertools import groupby
 from operator import itemgetter
 import sys
 
+###############
 # import stopwords file
-import os
-dir = os.path.dirname(__file__)
-filename = os.path.join(dir,'twitter/')
-sys.path.insert(0, filename)
+import textcentral.utils.stopwords
+
+###############
 
 import operator
 import nltk
