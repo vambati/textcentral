@@ -11,6 +11,8 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.collocations import *
 
+from textcentral.utils import stringutils
+
 import numpy as np
 from scipy.stats import binom
 import string
@@ -22,7 +24,10 @@ def read_mapper_output(file, separator='\t'):
 # Routine 1: ngram generator using NLTK 
 def ngram_generator_nltk(text,window_size):
 	grams = dict()
-	words = nltk.word_tokenize(text)
+	
+	#words = nltk.word_tokenize(text)
+	words = stringutils.tokenize_twitter(text)
+	
 	if(window_size==1):
 		grams = words
 	elif(window_size==2):
@@ -59,16 +64,16 @@ def main(separator='\t'):
 	data = read_mapper_output(sys.stdin, separator=separator)
 	for current_word, group in groupby(data, itemgetter(0)):
 		try:
-			# Create n-grams and score them 
+			# Create n-grams and score them
 			for current_word, s in group:
 				s = s.strip()
-				#ngram_generator(str,window_size=1)
-				#ngram_generator(str,window_size=2)
-				ngram_generator_nltk(s,window_size=3)
+				ngram_generator_nltk(s,window_size=1)
+				#ngram_generator_nltk(s,window_size=2)
+				#ngram_generator_nltk(s,window_size=3)
 
 			# Sort them in reverse based on frequency counts 
 			sorted_x = sorted(ngram.iteritems(), key=operator.itemgetter(1),reverse=True)
-			print current_word,sorted_x[:10]
+			print current_word,sorted_x[:50]
 		except ValueError:
 			# count was not a number, so silently discard this item
 			pass

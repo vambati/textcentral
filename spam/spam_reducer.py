@@ -7,7 +7,7 @@ import sys
 
 ###############
 # import stopwords file
-import textcentral.utils.stopwords
+from textcentral.utils import stringutils 
 
 ###############
 
@@ -47,35 +47,15 @@ from sklearn.metrics import *
 from sklearn.cross_validation import StratifiedKFold
 from sklearn import preprocessing 
 
-
-# simple tokenizer 
-import re
-REGEX = re.compile(r",\s*")
-
-# TODO: Drop @USER , keep smilies etc
-def normalize_twitter(text):
-	return text
-
-def normalize(text):
-	# String processing 
-	out = text.decode('unicode_escape').encode('ascii','ignore')
-	#out = text.encode('utf-8')
-	out = out.rstrip().lower()
-	
-	# Cleanup Punctuation 
-	
-	return out
-
-def tokenize(text):
-	return [tok.strip().lower() for tok in REGEX.split(text)]
 	
 def read_text_file(inpFile,delim):
 	f = open(inpFile, "r")
 	ylabels = []
 	tsvData = []
 	for s in f:
-		u = normalize(s)
+		u = stringutils.clean_utf(s)
 		tag,line = u.split(delim)
+		line =  stringutils.normalize_twitter(line) 
 
 		label = 1
 		if(tag=='spam'): 
@@ -192,7 +172,7 @@ def main(separator='\t' ):
 		   sens = list(group)
 		   for sen in sens:
 			# Mark spam vs. no-spam 
-			sen = normalize(sen)
+			sen = stringutils.clean_utf(sen)
 			result = scoreClassifier_one(sen,vectorizer,classifier)
 			print current_word,sen,result
 	   except ValueError:
@@ -201,21 +181,3 @@ def main(separator='\t' ):
 
 if __name__ == "__main__":
     main()
-
-
-# TODO: Show metrics when using a test file associated with it 
-def metrics():
-
-	# Metrics: 
-	# Compute Precision-Recall and plot curve
-	prec = precision_score(y_test, y_pred)
-	print ("Precision: %f" % prec )
-	rec = recall_score(y_test, y_pred)
-	print ("Recall: %f" % rec)
-	f1 = f1_score(y_test, y_pred)
-	print ("F1-score: %f" % f1) 
-
-	acc = zero_one_score(y_test, y_pred)
-	print ("Accuracy (0/1): %f" % acc)
-	#report = classification_report(y_test, y_pred)
-	#print report

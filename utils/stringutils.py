@@ -21,9 +21,15 @@ num_format = re.compile("^[1-9][0-9]*\.?[0-9]*")
 # A twitter tokenizer 
 tw_tok = Tokenizer(preserve_case=False)
 
-# Keep twitter specific tags and smilies etc  
-def normalize_twitter(text):
+def clean_utf(text):
+	# String processing 
 	text = text.decode('unicode_escape').encode('ascii','ignore')
+	#out = text.encode('utf-8')
+	return text
+	
+# Keep twitter specific tags and smilies etc  
+def tokenize_twitter(text):
+	text = clean_utf(text)
 	# tokenize 
 	toks = tw_tok.tokenize(text)
 	
@@ -33,6 +39,9 @@ def normalize_twitter(text):
 	toks = remove_numbers(toks)
 	
 	return toks 
+	
+def normalize_twitter(text):
+	return " ".join(tokenize_twitter(text))
 
 ###############################################################################
 
