@@ -7,8 +7,10 @@ import string
 # import stopwords file
 import os
 dir = os.path.dirname(__file__)
-filename = os.path.join(dir,'../')
+filename = os.path.join(dir,'twitter/')
 sys.path.insert(0, filename)
+
+from normalizer import Tokenizer 
 import stopwords
 
 # Reg-exes 
@@ -16,7 +18,6 @@ REGEX = re.compile(r",\s*")
 num_format = re.compile("^[1-9][0-9]*\.?[0-9]*")
 
 # A twitter tokenizer 
-from normalizer import Tokenizer 
 tw_tok = Tokenizer(preserve_case=False)
 
 # Keep twitter specific tags and smilies etc  
@@ -72,7 +73,7 @@ if __name__ == '__main__':
         u"It's perhaps noteworthy that phone numbers like +1 (800) 123-4567, (800) 123-4567, and 123, 4567 are treated as words despite their whitespace."
         )
     
-    for s in sys.stdin:
+    for s in samples:
         print "======================================================================"
         print s
         tokenized = normalize_twitter(s)

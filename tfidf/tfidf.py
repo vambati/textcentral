@@ -81,20 +81,18 @@ def computeTFIDF(data,labels):
 	#matrix = vectorizer.fit_transform(data)
 	
 	# Get max features 
-	vectorizer = TfidfVectorizer(max_features=100,analyzer='word')
+	vectorizer = TfidfVectorizer(analyzer='word')
 	matrix = vectorizer.fit_transform(data)
-	top_features = vectorizer.vocabulary_
-	print top_features
-	
+
  	print "n_samples: %d, n_features: %d" % matrix.shape
-	
-	#feature_names = np.asarray(vectorizer.get_feature_names())
-	#print feature_names
-	
-	# Sort and get the top tf-idf values 
-	stop_words = np.asarray(vectorizer.get_stop_words())
-	print stop_words
-	
+	#all_features = vectorizer.vocabulary_
+	feature_names = np.asarray(vectorizer.get_feature_names())
+	print feature_names
+
+	# print top elements in each document 
+	for v in matrix:
+		for j in v:
+			print j
 
 if __name__ == "__main__":
 	print ('Loading data sets ')	
