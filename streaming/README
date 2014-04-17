@@ -1,0 +1,12 @@
+Storm 
+- For real-time delivery through spouts (Twitter has a default one)
+
+Kafka
+- For centralization of data delivery to Hadoop or DB
+- Easy access to receive offsets of data 
+
+Streaming algorithms
+- Count-Min Sketch algorithms 
+- TFIDF based on probabilistic algorithms 
+
+

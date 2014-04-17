@@ -11,19 +11,27 @@ def read_input(file):
     for line in file:
         # split the line into words
 	try:
-		# Attensity Json load
+        # Attensity Json load
 		#obj = json.loads(line,"ISO-8859-1");
 		obj = json.loads(line,"utf-8");
-		if(obj['content_subtype'] == 'twitter'):
+		
+        # Stripe - 2741 
+		#if(obj['content_subtype'] == 'twitter' and obj['topics']['2741']!=None):
+        # GoPayments - 2734 
+		#if(obj['content_subtype'] == 'twitter' and obj['topics']['2734']!=None):
+        # PayPal - 2881 
+		if(obj['content_subtype'] == 'twitter' and obj['topics']['2881']!=None):
+        # Square - 3061, 2740 
+		#if(obj['content_subtype'] == 'twitter' and ((obj['topics']['3061']!=None) or (obj['topics']['2740']!=None))):
 			user = obj['authors'][0]['screen_name']
 			text = obj['title']
 			date = obj['published_at']
 			sentiment = obj['sentiment']['value']
-
+			
 			# utf encoding 
 			user = user.encode('utf-8')
 			text = text.encode('utf-8')
-			text = text.strip()
+			text = " ".join(text.split())
 		
 			# Sentiment analysis
 			sent_text="0\t0\t0"
@@ -83,9 +91,9 @@ if __name__ == "__main__":
 			print "@"+user,separator,text
 		# Ouptut tweets per time-frame (day | month | year)
 		elif(flag=="d"):
-			print d.year,d.month,d.day,separator,text
+			print "%s-%s-%s" %(d.year,d.month,d.day),separator,text
 		elif(flag=="m"):
-			print d.year,d.month,separator,text
-		elif(flag=="w"):
-			print d.year,separator,text
+			print "%s-%s" %(d.year,d.month),separator,text
+		elif(flag=="y"):
+			print "%s" %(d.year),separator,text
 

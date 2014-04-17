@@ -35,22 +35,23 @@ def getURLs(tweet):
 
 def read_mapper_output(file, separator='\t'):
     for line in file:
+		line = normalize(line)
 		yield line.rstrip().split(separator, 1)
 
+def normalize(t):
+		return t.lower()
+		
 def printEntities(screen_name,tweets):
-	# change this to read in your data
-	words = [token for s in tweets for token  in s.lower().split()]
-	filtered_words = [w for w in words if not w in stopwords.words('english')]
-	
+	# change this to read in your data	
 	for t in tweets:
 		for x in getMentions(t): 
-			print screen_name,"\t",x
+			print screen_name,"\t",x,"\tMENTION"
 	
 		for x in getHashTags(t): 
-			print screen_name,"\t",x
+			print screen_name,"\t",x,"\tTAG"
 
 		for x in getURLs(t): 
-			print screen_name,"\t",x
+			print screen_name,"\t",x,"\tURL"
 	
 
 def main(separator='\t'):
