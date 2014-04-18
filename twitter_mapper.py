@@ -20,7 +20,7 @@ def read_input(file):
 		else:
 			pass
 
-separator='\t'
+SEP='\t'
 
 # time flag 
 trainFile = None
@@ -54,4 +54,4 @@ if __name__ == "__main__":
 		# spam indicator 
 		spam_flag = spam_classifier.score(text)
  
-		print tid,separator,text,spam_flag,separator,proc_text
+		print tid,SEP,text,SEP,spam_flag,SEP,proc_text
