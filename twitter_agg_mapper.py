@@ -47,10 +47,9 @@ if __name__ == "__main__":
 	data = read_input(sys.stdin)
 	
 	for line in data:
-		# Date is the second element, make sure that is the case ! 
-		date = line[2]
-		text = line[5]
+                (tid,user,date,text,sent_text) = line
 
+		# Date is the second element, make sure that is the case ! 
 		d1 = dateutil.parser.parse(date)
 		d = d1.astimezone(dateutil.tz.tzutc())
 

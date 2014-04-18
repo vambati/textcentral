@@ -57,7 +57,7 @@ def main(separator='\t' ):
 	  	sen = sarr[1]
 		result = spam_classifier.score(sen)
 		# suppress spam
-		if(result==0):
+		if(result==1):
 			print line
 
 if __name__ == "__main__":
