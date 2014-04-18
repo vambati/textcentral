@@ -47,7 +47,7 @@ def parse(line):
 			proc_text = stringutils.normalize_twitter(text)
 			
 			return tid,user,date,text,sent_text,proc_text
-			#yield user,date,sent_text
+			#return date,proc_text 
 			#yield user,date,1
 
 	except Exception as e:

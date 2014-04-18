@@ -18,15 +18,14 @@ from textcentral.utils.twitter.normalizer import Tokenizer
 REGEX = re.compile(r",\s*")
 num_format = re.compile("^[1-9][0-9]*\.?[0-9]*")
 
+# NLTK needed - Stemming
+from nltk.stem import porter
+stemmer = porter.PorterStemmer()
+
+#################################################
 # A twitter tokenizer 
 tw_tok = Tokenizer(preserve_case=False)
 
-def clean_utf(text):
-	# String processing 
-	text = text.decode('unicode_escape').encode('ascii','ignore')
-	#out = text.encode('utf-8')
-	return text
-	
 # Keep twitter specific tags and smilies etc  
 def tokenize_twitter(text):
 	text = clean_utf(text)
@@ -61,7 +60,7 @@ def simple_tokenize(text):
 ###############################################################################
 
 def remove_stopwords(toks):
-	# Strip punctuation and stopwords
+	# Strip punctuation and stopwords (not NLTK)
 	filtered_toks = [w for w in toks if not w in stopwords.english_stopwords]
 	return filtered_toks 
 	
@@ -73,6 +72,24 @@ def remove_punc(toks):
 def remove_numbers(toks):
 	filtered_toks = [w for w in toks if not re.match(num_format,w)]
 	return filtered_toks
+
+def stem(s):
+    return [stemmer.stem(t) for t in s]
+	
+###########################################
+ 
+def clean_utf(text):
+ 	# String processing 
+ 	text = text.decode('unicode_escape').encode('ascii','ignore')
+ 	#out = text.encode('utf-8')
+ 	return text
+
+def token_frequency(s, t):
+    """
+    Returns frequency of token, t, in sentence, s.
+    """
+    regex = r'\b{0}\b'.format(t)
+    return len(re.findall(regex, s))
 	
 ###############################################################################
 	
@@ -86,5 +103,5 @@ if __name__ == '__main__':
     for s in samples:
         print "======================================================================"
         print s
-        tokenized = normalize_twitter(s)
+        tokenized = tokenize_twitter(s)
         print "\n".join(tokenized)

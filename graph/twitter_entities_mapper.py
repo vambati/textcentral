@@ -6,10 +6,6 @@ from operator import itemgetter
 import sys
 
 import operator
-import nltk
-from nltk.corpus import stopwords
-from nltk.collocations import *
-
 import numpy as np
 from scipy.stats import binom
 import string
@@ -35,11 +31,8 @@ def getURLs(tweet):
 
 def read_mapper_output(file, separator='\t'):
     for line in file:
-		line = normalize(line)
+		line = line.lower()
 		yield line.rstrip().split(separator, 1)
-
-def normalize(t):
-		return t.lower()
 		
 def printEntities(screen_name,tweets):
 	# change this to read in your data	

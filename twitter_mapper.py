@@ -48,18 +48,19 @@ if __name__ == "__main__":
 	for line in data:
 		# Date is the second element, make sure that is the case ! 
 		date = line[2]
+		text = line[5]
 
 		d1 = dateutil.parser.parse(date)
 		d = d1.astimezone(dateutil.tz.tzutc())
 
-		final_line = "\t".join(line)
+		#final_line = "\t".join(line)
 		
 		# Output author and tweet 
 		if(author_flag is True):
 			print "@"+user,separator,text
 		# Ouptut tweets per time-frame (day | month | year)
 		elif(flag=="d"):
-			print "%s-%s-%s" %(d.year,d.month,d.day),separator,final_line
+			print "%s-%s-%s" %(d.year,d.month,d.day),separator,text
 		elif(flag=="m"):
 			print "%s-%s" %(d.year,d.month),separator,text
 		elif(flag=="y"):
