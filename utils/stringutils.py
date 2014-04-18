@@ -79,8 +79,11 @@ def stem(s):
  
 def clean_utf(text):
  	# String processing 
- 	text = text.decode('unicode_escape').encode('ascii','ignore')
- 	#out = text.encode('utf-8')
+	try:
+ 		text = text.decode('unicode_escape').encode('ascii','ignore')
+	except UnicodeDecodeError:
+		return text
+		
  	return text
 
 def token_frequency(s, t):

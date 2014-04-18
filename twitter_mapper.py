@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""A mapper to read twitter json strings from attensity."""
+"""A mapper to read twitter json strings from Twitter and unpack and release them with a SPAM indicator."""
 
 import sys
 import simplejson as json 
@@ -8,6 +8,7 @@ import dateutil
 import dateutil.parser
 
 from textcentral.utils import stringutils
+from textcentral.spam.spammodel import SpamModel
 from textcentral.utils.twitter import json_reader
 
 def read_input(file):
@@ -20,11 +21,10 @@ def read_input(file):
 			pass
 
 separator='\t'
-key_separator='::'
 
 # time flag 
-flag = None
-author_flag = False
+trainFile = None
+spam_classifier = None
 
 if __name__ == "__main__":
 	try:
@@ -35,34 +35,23 @@ if __name__ == "__main__":
 
 	for o,a in opts:
 		if(o=='-t'):
-			'''aggregate at month level'''
-		    	flag = a
-		elif(o=='-a'):
-			'''aggregate at author level'''
-		    	author_flag = True
+			'''Training data file for spam identification'''
+			trainFile = a
+			spam_classifier = SpamModel(trainFile)
 		else:
 			assert False, "unhandled option"
 
 	data = read_input(sys.stdin)
 	
 	for line in data:
-		# Date is the second element, make sure that is the case ! 
-		date = line[2]
-		text = line[5]
-
-		d1 = dateutil.parser.parse(date)
-		d = d1.astimezone(dateutil.tz.tzutc())
-
-		#final_line = "\t".join(line)
+		# Modify json_reader.py to change what is packed here ! 
+		(tid,user,date,text,sent_text) = line
 		
-		# Output author and tweet 
-		if(author_flag is True):
-			print "@"+user,separator,text
-		# Ouptut tweets per time-frame (day | month | year)
-		elif(flag=="d"):
-			print "%s-%s-%s" %(d.year,d.month,d.day),separator,text
-		elif(flag=="m"):
-			print "%s-%s" %(d.year,d.month),separator,text
-		elif(flag=="y"):
-			print "%s" %(d.year),separator,text
+		# some processing
+		text = stringutils.clean_utf(text)
+		proc_text = stringutils.normalize_twitter(text)
 
+		# spam indicator 
+		spam_flag = spam_classifier.score(text)
+ 
+		print tid,separator,text,spam_flag,separator,proc_text

@@ -7,8 +7,6 @@ import getopt
 import dateutil
 import dateutil.parser
 
-from textcentral.utils import stringutils
-
 def parse(line):
 	try:
         # Attensity Json load
@@ -35,18 +33,15 @@ def parse(line):
 			text = " ".join(text.split())
 		
 			# Sentiment analysis
-			sent_text="0 0 0"
+			sent_text='0\t0\t0'
 			if(sentiment=='NEUTRAL'):
 				sent_text='0\t0\t1'
 			elif(sentiment=='POSITIVE'):
 				sent_text='1\t0\t0'
 			elif(sentiment=='NEGATIVE'):
 				sent_text='0\t1\t0'
-
-			text = stringutils.clean_utf(text)
-			proc_text = stringutils.normalize_twitter(text)
 			
-			return tid,user,date,text,sent_text,proc_text
+			return tid,user,date,text,sent_text
 			#return date,proc_text 
 			#yield user,date,1
 

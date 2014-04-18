@@ -85,7 +85,7 @@ def top_ngrams_diverse(ngram):
 		
 		if(lex_diversity <= DIV_THRESHOLD):
 			# Add to top n-grams
-			top_ngrams.append(sstr)
+			top_ngrams.append(s)
 			# Add the accumulated vocabulary
 			total_vocab.update(sset)
 		else:
