@@ -55,7 +55,6 @@ def simple_normalize(text):
 
 def simple_tokenize(text):
 	return [tok.strip().lower() for tok in REGEX.split(text)]
-	
 
 ###############################################################################
 
@@ -97,7 +96,7 @@ if __name__ == '__main__':
     samples = (
         u"RT @ #happyfuncoding: this is a typical Twitter tweet @test :-)",
         u"HTML entities &amp; other Web oddities can be an &aacute;cute <em class='grumpy'>pain</em> >:(",
-        u"It's perhaps noteworthy that phone numbers like +1 (800) 123-4567, (800) 123-4567, and 123, 4567 are treated as words despite their whitespace."
+        u"It's perhaps http://twitter.com noteworthy @gmail or vambati@gmail.com that phone numbers like +1 (800) 123-4567, (800) 123-4567, and 123, 4567 are treated as words despite their whitespace."
         )
     
     for s in samples:

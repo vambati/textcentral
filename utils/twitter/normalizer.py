@@ -19,6 +19,16 @@ import htmlentitydefs
 
 # This particular element is used in a couple ways, so we define it
 # with a name:
+######################################################################
+
+
+# Additions - Vamshi
+
+url_string = r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+'
+
+# TODO: Differentiate twitter usenames vs. email addresses 
+email_string = r'(<)?(\w+@\w+(?:\.\w+)+)(?(1)>|$)'
+
 emoticon_string = r"""
     (?:
       [<>]?
@@ -52,7 +62,10 @@ regex_strings = (
     ,
     # Emoticons:
     emoticon_string
-    ,
+	,
+	# URL strings
+	url_string
+   	,
     # HTML tags:
      r"""<[^>]+>"""
     ,

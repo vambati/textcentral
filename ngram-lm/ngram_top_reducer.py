@@ -92,7 +92,7 @@ def top_ngrams_diverse(ngram):
 			#print "\tSkip:",sstr
 			pass
 	
-	return top_ngrams[:10]
+	return top_ngrams[:25]
 											
 def main(separator='\t'):
     # input comes from STDIN (standard input)	
@@ -107,7 +107,7 @@ def main(separator='\t'):
 			for current_word, s in group:
 				s = s.strip()
 				#ngram_generator_nltk(s,ngram,window_size=1)
-				ngram_generator_nltk(s,ngram,window_size=2)
+				#ngram_generator_nltk(s,ngram,window_size=2)
 				ngram_generator_nltk(s,ngram,window_size=3)
 
 			result = top_ngrams_diverse(ngram)
