@@ -53,5 +53,11 @@ if __name__ == "__main__":
 
 		# spam indicator 
 		spam_flag = spam_classifier.score(text)
+
+		date = date.split('T')[0]
+
+		out = tid+"\t"+date+"\t"+user+"\t"+text+"\t"+str(spam_flag)+"\t"+proc_text
+		out = out.encode('utf-8')
+		print out
+
  
-		print tid,SEP,text,SEP,spam_flag,SEP,proc_text

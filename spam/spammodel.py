@@ -84,15 +84,12 @@ class SpamModel:
 			tag,line = u.split(delim)
 			line =  stringutils.normalize_twitter(line) 
 
-			label = -1
+			label = 1
 			if(tag=='spam'): 
 				label = 0
-			elif(tag=='Positive' or tag=='Negative'):
-				label = 1
-		
-			if(label!=-1):
-				ylabels.append(label)
-				tsvData.append(line)
+ 		
+			ylabels.append(label)
+			tsvData.append(line)
 
 		return tsvData,ylabels
 
@@ -137,6 +134,7 @@ class SpamModel:
 		pred = self.classifier.predict(X_test)
 		probas = self.classifier.predict_proba(X_test)
  
+ 		# Labels (0 - Spam ; 1- Not Spam)
 		label = 1	
 		if (probas[0][0] > probas[0][1]):
 			label = 0
