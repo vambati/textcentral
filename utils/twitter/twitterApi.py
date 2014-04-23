@@ -10,6 +10,23 @@ OAUTH_TOKEN="501009734-eU8JUKpWl2cy51TXEfegvqMayH2nPsMQZXdIj2iB"
 OAUTH_TOKEN_SECRET="oMZq0oag5HS7sbcSc6WZ99Fgqgj36CHxcmN5tkV8"
 ########################
 
+import ConfigParser
+
+
+def login(conf):
+	
+	config = ConfigParser.RawConfigParser()
+	config.read(conf)
+	
+	CONSUMER_KEY = config.get('oauth','CONSUMER_KEY')
+	CONSUMER_SECRET = config.get('oauth','CONSUMER_SECRET')
+	ACCESS_TOKEN = config.get('oauth','ACCESS_TOKEN')
+	ACCESS_TOKEN_SECRET = config.get('oauth','ACCESS_TOKEN_SECRET')
+	
+	twitter = Twython(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
+	
+	return twitter 	
+
 def getUserTimeline(user):
 	try:
 	    user_timeline = twitter.get_user_timeline(screen_name=user)
@@ -102,8 +119,9 @@ def getFriendsInfo(api,usersList,numberOfFriends=FRIENDS_MAX):
 	return friends
 		
 # global : move to a class ?
-twitter = Twython(APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
+twitter = None
 	
 if __name__ == '__main__':
+	twitter = login('vambati.properties')
 	getUserTimeline("vambati")
 	getSearchResults("india")
