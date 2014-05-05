@@ -1,0 +1,504 @@
+Company	Sentiment	spam	Relevant	Sentiment	Subject	Handle
+PayPal_General	NEUTRAL	Y	N	neutral	-     DJ PAYPAL - WHY                 http://t.co/8sddC05h4k     -	http://twitter.com/4kosgi/status/448199045417164800
+PayPal_General	NEUTRAL	N	Y	neutral	"' #AbcNews ' EBay Responds to Icahn, Says Sticking With PayPal: EBay responds to Icahn's letter, ... http://t.co/2AKdCGNBgL ' #AbcNews '"	http://twitter.com/1JonathanPerez/status/437963569976459264
+PayPal_General	NEUTRAL	N	Y	negative	" #PayPal feels the threat from Appleâ€™s mobile payment plans, says it â€˜wants to helpâ€™ #tech #apple http://t.co/FvXeJ4m7Wm"	http://twitter.com/MOHIT881923/status/429911680856764416
+PayPal_General	NEGATIVE	Y	N	neutral	@cheerNbanter abang. Boleh orderkan saya adidas hamburg tak nanti. Saiz 7.5 UK. 1 march nanti release. Akaun paypal saya tak update lagi. :(	http://twitter.com/_Dhaus11/status/435378139024199680
+PayPal_General	NEUTRAL	N	Y	positive	PayPal is clutch .. Free money I didn't have	http://twitter.com/_dialectfoo/status/433652260187299840
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_Dianaaa24/status/429936319914344448
+PayPal_General	NEUTRAL	N	Y	neutral	RT @ForbesTech: Carl Icahn has fired another shot in his battle to force eBay to spin off its fast growing PayPal division. http://t.co/v0Uâ€_	http://twitter.com/_diegonobili_/status/438307233177567232
+PayPal_General	NEGATIVE	N	Y	negative	"Last year, PayPal promised to overhaul its policies after getting flak for freezing huge amounts of crowdfunding... http://t.co/bKWNnp6Lj0"	http://twitter.com/_DigitalVision/status/444603901208043520
+Google_Wallet	NEUTRAL	N	N	neutral	It's time to upgrade that old phone you've been using for Google Wallet payments at the local store. Google is... http://t.co/x9AADKMLa8	http://twitter.com/_DigitalVision/status/445428344998223872
+PayPal_General	NEUTRAL	N	N	neutral	"RT @zxzcdx: IF THE SEATTLE SEAHAWKS DO NOT WIN THE SUPERBOWL TODAY, I WILL SEND EVERYONE WHO RETWEETS THIS $100 ON PAYPAL http://t.co/27vcfâ€_"	http://twitter.com/_dillonhill/status/430092878590001152
+PayPal_General	NEGATIVE	N	Y	negative	Something is wrong with my Paypal.. It's not letting buy anything offline.. Anybody know why????	http://twitter.com/_DirtyDyanna_/status/442662500417302528
+PayPal_General	NEUTRAL	N	N	neutral	Guys! there's a $200 paypal give away! http://t.co/EZWxgBZ4AZ	http://twitter.com/_dishbydish/status/430714390556315651
+PayPal_General	NEUTRAL	N	N	neutral	"Cheap place to buy fifa coins ? Looking for less than Â£60 for a mill, Xbox, paypal, must be trusted @EASPORTSFIFA  @cheaputc"	http://twitter.com/_Dispaced/status/439605532308307969
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_disPRETTYbxtch/status/430051981521354752
+PayPal_General	NEUTRAL	N	N	neutral	@ilovepurple__ I will pay you to re-tweet those tweets... and I will pay you before you re-tweet them. (this assumes you have paypal) Deal?	http://twitter.com/_Dissertation/status/435465796291018752
+PayPal_General	NEUTRAL	N	N	neutral	@tazz_a We are a team of writers. We seriously offer to write all of your essays. We accept paypal.	http://twitter.com/_Dissertation/status/435466284377972737
+PayPal_General	NEUTRAL	N	N	neutral	@DannDixon & all you need to do is make sure they provide us with your paypal address. If you don't have a paypal account then register one.	http://twitter.com/_Dissertation/status/440485804280795136
+PayPal_General	NEUTRAL	N	N	neutral	@Kamilianoo__ You need to be registered with paypal.	http://twitter.com/_Dissertation/status/443018832538763265
+PayPal_General	NEUTRAL	N	N	neutral	@Kamilianoo__ We pay it to your paypal account... so you would still need to be registered with paypal.	http://twitter.com/_Dissertation/status/443020542250352640
+PayPal_General	NEUTRAL	N	N	neutral	@CowsWearBras payment is through paypal.	http://twitter.com/_Dissertation_/status/431498029711896577
+PayPal_General	NEUTRAL	N	N	neutral	@KVitt_ If you email that to dissertationsandessays@yahoo.com and if you make a paypal payment of $40 then we will write this for you.	http://twitter.com/_Dissertation_/status/431746609081118720
+PayPal_General	NEUTRAL	N	N	neutral	"@ZarahBrees Hi, I offer to pay money (using paypal) for 2 re-tweets. I will pay before you re-tweet. Deal?"	http://twitter.com/_Dissertation_/status/435791054701215745
+PayPal_General	NEUTRAL	N	N	neutral	"@SecuteBelieber Hi, I offer to pay money (using paypal) for 2 re-tweets. I will pay the money before you re-tweet. Deal?"	http://twitter.com/_Dissertation_/status/435794321028030464
+PayPal_General	NEUTRAL	N	N	neutral	"@Onision Hi, I offer to pay money (using paypal) for 2 re-tweets. I will pay the money ($8) before you re-tweet. Deal?"	http://twitter.com/_Dissertation_/status/435794955475222529
+PayPal_General	NEUTRAL	N	N	neutral	"@WhoaBiebz Hi, I offer to pay money (using paypal) for 2 re-tweets. I will pay the money before you re-tweet. Deal?"	http://twitter.com/_Dissertation_/status/435796113111527425
+PayPal_General	NEUTRAL	N	N	neutral	"@chenloves1d Hi, I offer to pay money (using paypal) for 2 re-tweets. I will pay the money before you re-tweet. Deal?"	http://twitter.com/_Dissertation_/status/435796375138074624
+PayPal_General	NEUTRAL	N	N	neutral	"@imaginator1dx Hi, I offer to pay money (using paypal) for 2 re-tweets. I will pay the money ($8) before you re-tweet. Deal?"	http://twitter.com/_Dissertation_/status/435796562128539649
+PayPal_General	NEUTRAL	N	N	neutral	"@MakeupbyMandy24  Hi, I offer to pay money (using paypal) for 2 re-tweets. I will pay $15 before you re-tweet. Deal?"	http://twitter.com/_Dissertation_/status/435796755850854400
+PayPal_General	NEUTRAL	N	N	neutral	"@WhereTFisQ Hi, I offer to pay money (using paypal) for 2 re-tweets. I will pay you $8 'before' you re-tweet. Deal?"	http://twitter.com/_Dissertation_/status/435800380924903424
+PayPal_General	NEUTRAL	N	N	neutral	"@thetrainofpayne Hi, I offer to pay money (using paypal) for 2 re-tweets. I will pay you $8 before you re-tweet. Deal?"	http://twitter.com/_Dissertation_/status/435800869754245121
+PayPal_General	NEUTRAL	N	N	neutral	"@FvckDanny Hi, I offer to pay money (using paypal) for 2 re-tweets. I will pay before you re-tweet. Deal?"	http://twitter.com/_Dissertation_/status/435801914496675840
+PayPal_General	NEUTRAL	N	N	neutral	"@DJFreshSA Hi, I offer to pay money (using paypal) for 2 re-tweets. I will pay $20 before you re-tweet. Deal?"	http://twitter.com/_Dissertation_/status/435802884324589569
+PayPal_General	NEUTRAL	N	N	neutral	"@nitarageris Hi, I offer to pay money (using paypal) for 2 re-tweets. I will pay before you re-tweet. Deal?"	http://twitter.com/_Dissertation_/status/435809727834902528
+PayPal_General	NEUTRAL	N	N	neutral	"@lnsaneTweets Hi, I would like to pay you money for one re-tweet. I would pay by paypal. How much would it cost?"	http://twitter.com/_Dissertation_/status/437909785548050432
+PayPal_General	NEUTRAL	N	N	neutral	"@alispagnola Hi, I would like to pay you through paypal for one re-tweet. How much would I have to pay?"	http://twitter.com/_Dissertation_/status/437928141923684353
+PayPal_General	NEUTRAL	N	N	neutral	"@FreddyAmazin Hi, I would like to pay you (using paypal) for one re-tweet. How much would that cost me?"	http://twitter.com/_Dissertation_/status/437929122908479489
+PayPal_General	NEUTRAL	N	N	neutral	"@BiebsHeaven Hi, I would like to pay you for one re-tweet. I would pay using paypal. How much would it cost me?"	http://twitter.com/_Dissertation_/status/437967684290891776
+PayPal_General	NEUTRAL	N	N	neutral	@ProtectTheCube a paypal account.	http://twitter.com/_Dissertations/status/431761426613420032
+PayPal_General	NEUTRAL	N	N	neutral	@ElbertNN once they make payment for the essay. No catch except the essay must be 'at least' 700 wordcount & you need a paypal account.	http://twitter.com/_Dissertations/status/431762496081641472
+PayPal_General	NEUTRAL	N	N	neutral	@ninjalexxx once they make payment for the essay. No catch except the essay must be 'at least' 700 wordcount & you need a paypal account.	http://twitter.com/_Dissertations/status/431762829323272192
+PayPal_General	NEUTRAL	N	N	neutral	@abernashley once they make payment for the essay. No catch except the essay must be 'at least' 700 wordcount & you need a paypal account.	http://twitter.com/_Dissertations/status/431763251312205824
+PayPal_General	NEUTRAL	N	N	neutral	@Jake_rocks6 once they make payment for the essay. No catch except the essay must be 'at least' 700 wordcount & you need a paypal account.	http://twitter.com/_Dissertations/status/431763532338962432
+PayPal_General	NEUTRAL	N	N	neutral	@Justmeehannah once they make payment for the essay. No catch except the essay must be 'at least' 700 wordcount & you need a paypal account.	http://twitter.com/_Dissertations/status/431763811486687232
+PayPal_General	NEUTRAL	N	N	neutral	@willambelli once they make payment for the essay. No catch except the essay must be 'at least' 700 wordcount & you need a paypal account.	http://twitter.com/_Dissertations/status/431764534274314240
+PayPal_General	NEUTRAL	N	N	neutral	@jazzybelle___ once they pay for the essay. There's no catch except the essay must be 'at least' 700 wordcount & you need a paypal account.	http://twitter.com/_Dissertations/status/431766598970802176
+PayPal_General	NEUTRAL	N	N	neutral	@Louis_Gonzalez once they pay for the essay. There's no catch except the essay must be 'at least' 700 wordcount & you need a paypal account.	http://twitter.com/_Dissertations/status/431767133874581504
+PayPal_General	NEUTRAL	N	N	neutral	@Brad740 soon as your referral pays for the essay. No catch except the essay must be 'at least' 700 wordcount & you need a paypal account.	http://twitter.com/_Dissertations/status/431767910277980160
+PayPal_General	NEUTRAL	N	N	neutral	@ZoeKainaroi once they pay for the essay. There's no catch except the essay must be 'at least' 700 wordcount & you need a paypal account.	http://twitter.com/_Dissertations/status/431768504883507200
+PayPal_General	NEUTRAL	N	N	neutral	@neeenerssss For you to get paid (s)he would simply have to quote your email address in their email to us. And you need paypal. You pay Zero	http://twitter.com/_Dissertations_/status/433207128572968960
+PayPal_General	NEUTRAL	N	N	neutral	@brittanyploen For you to get paid (s)he would simply have to quote your email address in their email to us. And you need paypal. You pay $0	http://twitter.com/_Dissertations_/status/433208594238939136
+PayPal_General	NEUTRAL	N	N	neutral	@briannaaa8 For you to get paid (s)he would simply have to quote your email address in their email to us. And you need paypal. You pay $0	http://twitter.com/_Dissertations_/status/433212884424740864
+PayPal_General	NEUTRAL	N	N	neutral	@gomezdanielleee For you to get paid (s)he would simply have 2 quote your email address in their email 2 us. You need paypal. You pay $0.	http://twitter.com/_Dissertations_/status/433246481655414785
+PayPal_General	NEUTRAL	N	N	neutral	@RTFollowBack6 I will pay you $5 to your paypal account if you re-tweet 2 tweets. I will pay before you re-tweet. The 2 tweets are...	http://twitter.com/_Dissertations_/status/435471933144981504
+PayPal_General	NEUTRAL	N	N	neutral	We will pay anyone who gets us a customer...$10. You need a paypal account. If you know someone who wants an essay writing forward them 2 us	http://twitter.com/_Dissertations_/status/440197536293212160
+PayPal_General	POSITIVE	N	Y	negative	"@peoplesdefense I got a few bucks on a disposable credit card I'm more than happy to send your way, but I iz blocked by paypal"	http://twitter.com/_disss/status/447073939878346752
+PayPal_General	NEUTRAL	N	Y	negative	"@peoplesdefense oh, and I'm in Ireland, so mail could take a week. Alternative to paypal? (it's a visa card)"	http://twitter.com/_disss/status/447074467693731840
+Google_Wallet	NEUTRAL	N	N	neutral	"@peoplesdefense okay, looking at Google wallet. That is within US only."	http://twitter.com/_disss/status/447082909363863552
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_District_5/status/430023389764259842
+PayPal_General	NEUTRAL	N	N	neutral	RT @DJRansomDollars: LIVEMIXTAPS UPLOAD & HOSTING DJRANSOMDOLLARS@GMAIL.COM @PAYPAL USERS GET 50% OFF ON PROMO	http://twitter.com/_DJ_IMNIT/status/433702853262061568
+PayPal_General	NEUTRAL	N	N	neutral	RT @DJRansomDollars: MIXTAPE HOSTING 50% OFF TODAY WITH @PAYPAL USERS ONLY	http://twitter.com/_DJ_IMNIT/status/434639099786321920
+PayPal_General	NEUTRAL	N	N	neutral	RT @DJBOSSCHIC: $100 LIVEMIXTAPES PAYPAL IS WHEATTSTRAW@GMAIL.COM EMAIL ZIP TO DJBOSSCHICMIXTAPES@GMAIL.COM	http://twitter.com/_DJ_IMNIT/status/435002966672568321
+PayPal_General	NEUTRAL	N	N	neutral	Got this for $150 right now FREE SHIPPING must have paypal HIT ME UP OR DM ME NOW http://t.co/lZesXOCZmD	http://twitter.com/_DJ_IMNIT/status/436529171138101248
+PayPal_General	NEUTRAL	N	N	neutral	RT @DJRansomDollars: Im Hosting Mixtapes 50% Today #Paypal Users Only !	http://twitter.com/_DJ_IMNIT/status/436648523962912768
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_DJksn/status/430095699368099841
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_djs98/status/430042386027524096
+PayPal_General	NEUTRAL	N	N	neutral	Came A Long Way... Now People They Pay Me In Paypal_Ÿ’__Ÿ˜‰ http://t.co/xsTBLaFCFs	http://twitter.com/_DJStroke/status/439242912581562368
+PayPal_General	NEUTRAL	N	Y	neutral	"RT @ForbesTech: Elon Musk says PayPal must split from Ebay: ""It's as if Target owned Visa or something."" http://t.co/bYq2YhVxEV"	http://twitter.com/_dmusic/status/436128961123590144
+PayPal_General	NEUTRAL	N	Y	negative	How much do I have to sell for paypal to quit making me wait on my money? @CMcGee1	http://twitter.com/_DO_LO/status/431637793911996417
+PayPal_General	NEUTRAL	N	N	neutral	"Get FeaturePoints to get rewards like iTunes cards, Amazon GCs, PayPal cash, paid apps FREE! http://t.co/hudvpRGol1"	http://twitter.com/_DoctorJ_/status/430202221574098944
+PayPal_General	NEUTRAL	N	Y	negative	RT @Support_Andy: [Notice]We opened Japanese account for Japanese fans who have difficulty in using paypal. Plz check the notice page. â˜_httâ€_	http://twitter.com/_dolkim/status/437222365127139328
+PayPal_General	NEUTRAL	N	N	neutral	RT @GenericNamex: Yoshi actually knows Astro and is taking the donations for him please send it to Yoshi's PayPal #PrayForAstro PrayForâ€_	http://twitter.com/_DominicVasquez/status/437800178834083840
+PayPal_General	NEUTRAL	N	N	neutral	FOLLOW ME ON INSTAGRAM @_DEYCALLMEDOMTWITTER @_DOMINIQUEAPERSONAL VIDEOS YOU ONLY NEED A PAYPAL... http://t.co/EBGaFnwhhk	http://twitter.com/_DominiqueA/status/433313717460406272
+PayPal_General	NEUTRAL	N	N	neutral	FOLLOW ME ON INSTAGRAM @_DEYCALLMEDOMTWITTER @_DOMINIQUEAPERSONAL VIDEOS!!! YOU ONLY NEED A PAYPAL... http://t.co/odFe9llvTO	http://twitter.com/_DominiqueA/status/434876000099631104
+PayPal_General	NEUTRAL	N	N	neutral	"Hi @majornelson, what are the rules with regards buying digitally on X1, can I buy Ryse from the US store with a valid address using Paypal?"	http://twitter.com/_DomoO_/status/436115299989860352
+PayPal_General	NEGATIVE	N	Y	negative	"@houseoffraser Neil? are you there? Just to let you know there's something wrong with the paypal bit on your website. talk soon, love you xx"	http://twitter.com/_DonaldMcronald/status/437364946595495937
+PayPal_General	NEUTRAL	N	N	neutral	"â€œ@bobbyano_: FS:DS ""Bred"" IV Size 9 PayPal Only $300 shipped.please RT. http://t.co/67Qw6OXUx6â€ù"	http://twitter.com/_DonCanon/status/434794954133495808
+PayPal_General	NEGATIVE	N	Y	negative	Who know how to set up your bank account to paypal? Help!!!!	http://twitter.com/_DonCris10/status/447510880184311808
+PayPal_General	NEUTRAL	N	N	neutral	how did i get another month of netflix i swear i had no money in my paypal the other day. or am i trippin	http://twitter.com/_donnale/status/445708121122426881
+PayPal_General	NEGATIVE	N	Y	negative	I wanna donate to the trevor project but I need to send money into my paypal which takes a week and it ends in 3 days :( @tyleroakley	http://twitter.com/_donnale/status/446455311051030528
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_donte4/status/430060723436548097
+PayPal_General	NEUTRAL	N	Y	neutral	"RT @Fact: Paypal's Co-Founder coded non-stop for 5 days without sleep, then finished the product 1 hour before he received $4.5 million in â€_"	http://twitter.com/_DontYouHateIt/status/440091947848310784
+PayPal_General	NEUTRAL	N	N	neutral	"RT @zxzcdx: IF THE SEATTLE SEAHAWKS DO NOT WIN THE SUPERBOWL TODAY, I WILL SEND EVERYONE WHO RETWEETS THIS $100 ON PAYPAL http://t.co/27vcfâ€_"	http://twitter.com/_DOPEdson/status/430125749031301120
+PayPal_General	NEUTRAL	N	N	neutral	"RT @zxzcdx: IF THE SEATTLE SEAHAWKS DO NOT WIN THE SUPERBOWL TODAY, I WILL SEND EVERYONE WHO RETWEETS THIS $100 ON PAYPAL http://t.co/27vcfâ€_"	http://twitter.com/_DopeKicks/status/430143616229457920
+PayPal_General	NEUTRAL	N	Y	negative	"Tried to order something online and it wouldn't let me log into paypal, guess it wasn't meant to be"	http://twitter.com/_DOPEMatic/status/438177182083743745
+PayPal_General	NEUTRAL	N	N	neutral	"PayPal set up ,,, email me for an invoice on deposits  ! Starting at$25"	http://twitter.com/_DopeRituals/status/432640794726772736
+PayPal_General	NEUTRAL	N	Y	negative	Paypal has started banning accounts selling anything Bitcoin-related https://t.co/vPc3V74ZUz ì˜_ í_˜ìù´íŒ”...	http://twitter.com/_doss/status/430892885680996352
+PayPal_General	NEGATIVE	N	N	neutral	RT @DopeDp: Smh ima cheap nigga anyway if you steal my tweet just paypal me 50 cent	http://twitter.com/_dotlice/status/434542197502128128
+PayPal_General	NEUTRAL	N	Y	negative	"@AskPayPal Ebay buyer says unable to pay - ""the recipient hasn't accepted the payment"" What is the problem? What can I do?"	http://twitter.com/_doublecat/status/446019463818010624
+PayPal_General	POSITIVE	N	Y	positive	@AskPayPal   ok thanks	http://twitter.com/_doublecat/status/446037955732205568
+PayPal_General	NEUTRAL	N	Y	negative	Why are people surprised still when @paypal cuts off websites funds.	http://twitter.com/_Doug_F/status/446747454550310912
+PayPal_General	NEUTRAL	N	N	neutral	@Rocherlive ...haven't heard back from any of them yet. Let me know if you'd be trusting enough of me to Paypal me before tickets were sent!	http://twitter.com/_Dowdy_/status/438435056064143360
+PayPal_General	POSITIVE	N	N	positive	RT @IAmFredNice: thank u @Paypal	http://twitter.com/_DrakeGreenr/status/442388410108370944
+PayPal_General	NEUTRAL	N	N	neutral	Gotta do this assessment for Paypal ..	http://twitter.com/_DramaQueen93/status/441631500216201217
+PayPal_General	NEUTRAL	N	N		"I have this Flappy Bird app saved on my laptop, I might have set up a PayPal and sell people the app for some $$ on eBay _Ÿ˜‚_Ÿ˜©"	http://twitter.com/_dreamchaser34/status/434817356507152386
+PayPal_General	NEUTRAL	N	N	neutral	RT @KingLaviish: IPhone 5 for sale looking for 150-250$ PAYPAL ONLY - i ship via usps phone is perfect comes with everything DM ME! http://â€_	http://twitter.com/_DreamChasin/status/431111833001676800
+PayPal_General	NEUTRAL	N	Y	negative	@erinscafe @PayPal is the devil. PayPal leaves legos out on your tile floor where you walk barefoot. PayPal poops in your sock drawer.	http://twitter.com/_drewseph/status/433728351795027968
+PayPal_General	NEUTRAL	N	Y	neutral	RT @samir: What does it mean when your Paypal balance is WU-TANG CLAN? http://t.co/dbDrZawCy1	http://twitter.com/_drewUX/status/443140190690111488
+PayPal_General	NEUTRAL	N	N	neutral	PayPal bill me later !!!!!	http://twitter.com/_Dripz/status/431314848085839872
+PayPal_General	NEUTRAL	N	N	neutral	RT @UNDFTDSOLES: Who has size 10.5 red yeezys DM me. Ill give you 3k tonight via paypal or miami meet up. RT please.	http://twitter.com/_DrizzyP/status/435571059996098561
+PayPal_General	NEUTRAL	N	N	neutral	RT @itsOddFuture: HUF SOCKS. (Cheap)Email - itsOddFuture@hotmail.com*must be PayPal ready* http://t.co/0qrqciLZFQ	http://twitter.com/_DRUGGYWitHoess/status/446076582965170176
+PayPal_General	NEUTRAL	N	N	neutral	RT @LivinLifeBOSS: I got all the oxon hill fights for the small price of $2 via paypal wassup	http://twitter.com/_DrugsAndHugs/status/441709739354099713
+PayPal_General	NEUTRAL	N	N	positive	RT @PayPal: Keep your money to your #self.  #Paypalit for a safer way to pay.	http://twitter.com/_drusty/status/438513631026626560
+PayPal_General	NEUTRAL	N	Y	negative	"RT @Official_SEA16: If your Paypal account is down for a few minutes, think about Syrians who were denied online payments for more than 3 yâ€_"	http://twitter.com/_Drymer_/status/429756267016765440
+PayPal_General	NEUTRAL	N	N	neutral	"RT @SolesOut: Try selling your shoes on http://t.co/kfiXpf3KDl. Currently no fees, your listing is linked directly to your Paypal. Buy & Seâ€_"	http://twitter.com/_DSavMMF/status/435166680420188161
+PayPal_General	NEUTRAL	N	Y	negative	My paypal statement be long as fuck every month I gotta chill	http://twitter.com/_DSavMMF/status/444308234531135488
+PayPal_General	NEUTRAL	N	N	neutral	@LyssWitTheKicks  they be doing you good? You can use PayPal right?	http://twitter.com/_Dseay/status/447436429581619200
+PayPal_General	NEUTRAL	N	N	neutral	@cvsxy how about $15 paypal for wanting paypal _Ÿ˜_	http://twitter.com/_DSHY/status/445000136318414848
+PayPal_General	NEUTRAL	N	N	neutral	"RT @zxzcdx: IF THE SEATTLE SEAHAWKS DO NOT WIN THE SUPERBOWL TODAY, I WILL SEND EVERYONE WHO RETWEETS THIS $100 ON PAYPAL http://t.co/27vcfâ€_"	http://twitter.com/_Dsmith4/status/430092613639602176
+PayPal_General	POSITIVE	N	N	neutral	go to sleep lol RT @CJiovonni: â€œ@_Duck_: PayPal is so lit.â€ùo	http://twitter.com/_Duck_/status/433327303704064000
+PayPal_General	POSITIVE	N	N	neutral	RT @TheTurk203: @_Duhwayne_ lol ask all ur follows to paypal u one dollar and u would be ballin	http://twitter.com/_Duhwayne_/status/435961461056487424
+PayPal_General	NEUTRAL	N	N	neutral	YALL TRYIN TO PUT A DOLLA EACH IN MY PAYPAL ACCOUNT	http://twitter.com/_Duhwayne_/status/435961535760855040
+PayPal_General	NEUTRAL	N	N	neutral	@Will_Proc @WilliamBiss I can't make Reading unfortunately. But yeah I can paypal the postage costs etc!	http://twitter.com/_dunners/status/432250136245190656
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_dutchmaster/status/430085936979144705
+PayPal_General	NEUTRAL	N	N	neutral	"RT @zxzcdx: IF THE SEATTLE SEAHAWKS DO NOT WIN THE SUPERBOWL TODAY, I WILL SEND EVERYONE WHO RETWEETS THIS $100 ON PAYPAL http://t.co/27vcfâ€_"	http://twitter.com/_dvrnxl/status/430120999125000192
+PayPal_General	NEUTRAL	N	N	neutral	RT @GeneticTourneys: 2v2 SnD 1ND Tourney! $7.50 entry!Paypal in Bio//send money with GTs in payment.@ShawnAbner @ABOUTx99NINJAS @CoDRT24_â€_	http://twitter.com/_Dwighttt/status/444674809365274624
+PayPal_General	NEUTRAL	N	N	neutral	using every paypal account of your family to maximise the free month trials on netflix	http://twitter.com/_dxnielo/status/435135406154481664
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_dxvyn/status/430112048694173696
+PayPal_General	NEUTRAL	N	N	neutral	RT @iCollectNudes: IF SEAHAWKS LOSE ILL PAYPAL EVERYONE THAT RETWEETS THIS $50 NOT PLAYIN B http://t.co/Ijan2IAxid	http://twitter.com/_dylanjara/status/430131969406820352
+PayPal_General	NEUTRAL	N	N	neutral	RT @iCollectNudes: IF SEAHAWKS LOSE ILL PAYPAL EVERYONE THAT RETWEETS THIS $50 NOT PLAYIN B http://t.co/Ijan2IAxid	http://twitter.com/_DylanMetz/status/430150116990017536
+PayPal_General	NEUTRAL	N	N	neutral	RT @imabookshark: If only editing were just about editing. *sigh* Caught up on some 'paperwork' stuff (read: PayPal and my spreadsheet). Baâ€_	http://twitter.com/_dymps_/status/436978197218217985
+PayPal_General	NEUTRAL	N	N	neutral	RT @StevenBertoni: How Do You Win The Mobile Wallet War? Be Like Starbucks.  http://t.co/UR06L3iIjk via @forbes @starbucks @paypal $sbux	http://twitter.com/_E_D_M_/status/436977565333352448
+PayPal_General	NEUTRAL	N	Y	neutral	RT @RealDasch: The reason we take $1-2 from each contest is to pay Paypal fees. This will not be a website for me to make profit. All fundsâ€_	http://twitter.com/_earth3/status/431881965386866690
+PayPal_General	NEUTRAL	N	N	neutral	RT @YoutubeRushed: Won the lottery! _RT_ and mention/DM me your paypal and I'll send you $20! Everyone gets $20! http://t.co/BltluXRS8P	http://twitter.com/_earth3/status/444680240292716544
+PayPal_General	NEUTRAL	N	N	neutral	"To purchase any of my services, please send your payment through PayPal to lemurianscorpio@live.com and be sure... http://t.co/wTs5b5S2Em"	http://twitter.com/_EarthSpirit/status/436582885274185728
+PayPal_General	NEUTRAL	N	Y	neutral	@FLASHXHYPE you guys able to accept PayPal?	http://twitter.com/_EasyP/status/432334119138099201
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_eccentriclovee/status/430063454029119488
+PayPal_General	NEGATIVE	N	Y	negative	@HiRezStudios Why paypal ( or all ) transaction are long =( ?	http://twitter.com/_Ecto_/status/430836393984950272
+PayPal_General	NEUTRAL	N	N	neutral	RT @MYSTIKALGOD666: paypal me $200 if u wanna b on durag soul vol. 2 unless u famous then u on for free	http://twitter.com/_eddyd/status/438678283040063488
+PayPal_General	NEUTRAL	N	N	neutral	"RT @EmpiReEsport: If I wake up tomorrow morning, 7 AM, with 2000 followers, I'll give away gamma/KF, and send someone 25$ paypal. Ready, seâ€_"	http://twitter.com/_EdgarG_/status/430195558808944640
+PayPal_General	POSITIVE	N	N	neutral	"RT @EmpiReEsport: Winner has the option of paypal cash, gamma, or kontrol freeks =) 2k is so close."	http://twitter.com/_EdgarG_/status/430379157009100801
+PayPal_General	NEUTRAL	N	N	neutral	"RT @EmpiReEsport: Hello all new followers! at 2500 followers, we will give away $25 (valued item, or paypal'd cash). #CreatingAnEmpiRe"	http://twitter.com/_EdgarG_/status/445286334941261824
+PayPal_General	NEUTRAL	N	N	neutral	"RT @zxzcdx: IF THE SEATTLE SEAHAWKS DO NOT WIN THE SUPERBOWL TODAY, I WILL SEND EVERYONE WHO RETWEETS THIS $100 ON PAYPAL http://t.co/27vcfâ€_"	http://twitter.com/_edithhhh/status/430112853337456640
+PayPal_General	NEUTRAL	N	N	neutral	RT @Cum_n_mybooty: NEED PROMO ?? DM ME FOR PROMO PRICES ( MUST HAVE PAYPAL )	http://twitter.com/_Edwardx3/status/433794603184324609
+PayPal_General	NEUTRAL	N	Y	neutral	I just got my first #Paypal account- I'm either massively behind the times or experiencing a right of passage of adulthood... Maybe both...	http://twitter.com/_eekoorb/status/430224465700458496
+PayPal_General	NEUTRAL	N	Y	negative	reason #8036 why i fucking hate paypal	http://twitter.com/_egjones/status/443802617526108161
+PayPal_General	NEGATIVE	N	Y	negative	Having a paypal signed up automatically to eBay is such a bad idea _Ÿ˜_ #ebayno1customer	http://twitter.com/_EIREANNCAREY/status/442649103831662592
+PayPal_General	NEUTRAL	N	N	neutral	"Hb one of u paypals me like $100,000"	http://twitter.com/_eiroc/status/436251724689715202
+PayPal_General	NEUTRAL	N	N	neutral	Need some extra cash?? $75 #paypal cash Enter this amazing #cashgiveaway now with @ShanaMom2 http://t.co/bzVAnp1wIC	http://twitter.com/_eKhiZz/status/441932571081850880
+PayPal_General	NEUTRAL	N	N	neutral	"RT @zxzcdx: IF THE SEATTLE SEAHAWKS DO NOT WIN THE SUPERBOWL TODAY, I WILL SEND EVERYONE WHO RETWEETS THIS $100 ON PAYPAL http://t.co/27vcfâ€_"	http://twitter.com/_elcuero809/status/430146291000438784
+PayPal_General	NEGATIVE	N	Y	negative	This exactly why I hated using PayPal man I hate this company ima get my money back bet that shit	http://twitter.com/_Elegido_/status/447021301882822656
+PayPal_General	NEUTRAL	N	N	neutral	Everyone should start charging 3.99 for nudes via PayPal	http://twitter.com/_eLGee/status/431247042510192640
+PayPal_General	POSITIVE	N	N	positive	RT @monsterkid: confess your love for me via paypal	http://twitter.com/_Eliasss/status/433573048990851073
+PayPal_General	NEUTRAL	N	N	neutral	RT @iCollectNudes: IF SEAHAWKS LOSE ILL PAYPAL EVERYONE THAT RETWEETS THIS $50 NOT PLAYIN B http://t.co/Ijan2IAxid	http://twitter.com/_Eliel_Martinez/status/430140066195726336
+PayPal_General	NEUTRAL	N	N	neutral	"@strawBEArryLEE Oh, and in case you need, I paid via paypal which account is in my dad's name, Paulo Cruz. Very similar to mine."	http://twitter.com/_elifante/status/444760606403747840
+PayPal_General	NEUTRAL	N	N	negative	Brand new PS4100$ oboMUST BE PAYPAL READY RETREAT THIS EVERYONE PLEASE HELP ME OUT!!! http://t.co/CKt46A9iPO	http://twitter.com/_Elijah_Perfect/status/442837892306456576
+PayPal_General	NEUTRAL	N	Y	negative	RT @jackhessworld: _Ÿ™†MY PAYPAL JUST GLITCHED!_Ÿ‘ŒI'm Giving Away $1000-$500 To Everyone Who #ReTweets This http://t.co/tC1U96wydF	http://twitter.com/_Elijahfarr_/status/442341705560649728
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DannyTanner: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, @justinbieber WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.coâ€_"	http://twitter.com/_elijahjmoreno/status/430135891177136129
+PayPal_General	NEUTRAL	N	N	neutral	RT @LatinaGawd: DAWG IF THE SEAHAWKS DONT WIN I'LL PAYPAL $7.50 TO EVERYBODY THAT RT THIS TWEET	http://twitter.com/_Ellaay/status/430123131702083584
+PayPal_General	NEUTRAL	N	N	neutral	"RT @zxzcdx: IF THE SEATTLE SEAHAWKS DO NOT WIN THE SUPERBOWL TODAY, I WILL SEND EVERYONE WHO RETWEETS THIS $100 ON PAYPAL http://t.co/27vcfâ€_"	http://twitter.com/_EllaEsBonita/status/430109396178202624
+PayPal_General	NEUTRAL	N	N	neutral	@michelle_0816 Sisssss when r u going? can you bring back some cd's for me to save on shipping? i will paypal you....	http://twitter.com/_elle7_/status/443632889310085120
+PayPal_General	NEUTRAL	N	Y	positive	PayPal is actually so much better than i thought it was	http://twitter.com/_ElliotJackson/status/440192914551889922
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_elynce/status/430018051351011328
+PayPal_General	NEUTRAL	N	Y	negative	can someone w/ PayPal please help me with something plSplspleaseee	http://twitter.com/_elysiajohnston/status/440215252287119360
+PayPal_General	NEUTRAL	N	N	neutral	"RT @TravLeBlanc: ""Paypal me your lunch money!"" -Cyber Bullies"	http://twitter.com/_emeraldcat_/status/436525333639340032
+PayPal_General	NEUTRAL	N	Y	negative	how the frick do I use paypal someone help me	http://twitter.com/_emheck/status/430017889828372480
+PayPal_General	NEGATIVE	N	Y	negative	It's your turn @Pornhub  RT @mashable: Syrian Electronic Army: We Hacked @eBay and @PayPal http://t.co/Dec7Og96Ez	http://twitter.com/_Emigrant/status/429727501670440960
+PayPal_General	NEUTRAL	N	Y	negative	@imeloweez yes! It's live and has been for ages? Apparently it's been deemed irrelevant and have opened a paypal dispute!	http://twitter.com/_EmilyDivine/status/440880350466936832
+PayPal_General	NEUTRAL	N	Y	positive	Is it easy to change your address on PayPal?	http://twitter.com/_EmilyGalloway/status/435838079858118656
+PayPal_General	NEUTRAL	N	N	neutral	PayPal is a genuine bag of wank	http://twitter.com/_EmilyGalloway/status/435843938742980610
+PayPal_General	POSITIVE	N	Y	neutral	will paypal steal all my money or is it actually safe lol	http://twitter.com/_EMILYKERR/status/430544483478810624
+PayPal_General	NEUTRAL	N	N	neutral	"RT @zxzcdx: IF THE SEATTLE SEAHAWKS DO NOT WIN THE SUPERBOWL TODAY, I WILL SEND EVERYONE WHO RETWEETS THIS $100 ON PAYPAL http://t.co/27vcfâ€_"	http://twitter.com/_emmamariee_/status/430110979926392832
+PayPal_General	NEUTRAL	N	N	neutral	I feel like if I create a Paypal account I may go overboard and just spend all my money... but then I can shop more... eeeep #angelordevil	http://twitter.com/_emmaprivett/status/438216689327427584
+PayPal_General	NEUTRAL	N	N	neutral	RT @_MIAMIMONSTER: JUST GOT INTO MY DADS PAYPAL FIRST 20K TO RT THIS WILL GET $500 EACH!! (Must be following) http://t.co/kKtdFQSfXt	http://twitter.com/_emmilyyyy/status/447405468928208896
+PayPal_General	NEUTRAL	N	N	neutral	"RT @bieberslayed: ""@john @justinbieber @jeremybieber @scooterbraun Scooter owes somebody a little money #Seahawks #PayPal"" TIGHTTT"	http://twitter.com/_Emmmmmily_/status/430159400318144512
+PayPal_General	NEUTRAL	N	Y	negative	PayPal why do you need to send me email about my account balance when it's zero?	http://twitter.com/_emulsifier/status/431003052309368832
+PayPal_General	NEUTRAL	N	Y	neutral	RT @SurveyMonkey: 85% of #mobile users rely on apps like #PayPal & #Venmo 4 gift-giving. Only 12% for paying bills. Is #P2P the future? httâ€_	http://twitter.com/_Encounter/status/435900669321441280
+PayPal_General	NEUTRAL	N	N	neutral	Set de fotos: happyun-birthday: yetanotherjfashionblog: Stockings from Sakizo (buy using paypal from... http://t.co/CsmgG0huH6	http://twitter.com/_Endel_/status/429850582166171648
+PayPal_General	NEUTRAL	N	N	neutral	Win $500 in paypal cash from @JustUsFour1 and friends. RT & enter to win. #giveaway #freemoney  http://t.co/VUwhKhyg1D	http://twitter.com/_enjoytheview_/status/431629712574525440
+PayPal_General	NEGATIVE	N	N	negative	omfg. yes. i had 25 dollars in my paypal i was not aware of. so my online purchase was actually only 7 dollars from my bank account.FUCKYES	http://twitter.com/_entershikarbee/status/438548896633991169
+PayPal_General	NEUTRAL	N	Y	negative	PayPal not suitable for marketplaces http://t.co/kX0AunqC2I via @fundedbyme @paypaleurope @paypal @paypalmts	http://twitter.com/_entreprenerd/status/436140279603539969
+PayPal_General	NEUTRAL	N	N	neutral	@2047trypt PayPal	http://twitter.com/_envyJose/status/442396324160610305
+PayPal_General	NEUTRAL	N	N	neutral	RT @YoungGwuap_: First person to get this right will receive $500 on paypal _Ÿ˜_ http://t.co/IRxIZWGDiF	http://twitter.com/_EnvyMoly/status/440722808809992192
+PayPal_General	NEUTRAL	N	N	neutral	i need $5 paypal asap. tweet me if you have some and @eRaJudges will add ya	http://twitter.com/_eRaAus/status/434098156301987840
+PayPal_General	NEUTRAL	N	N	neutral	@JAYCOON paypal	http://twitter.com/_eRaAus/status/434553659608023041
+PayPal_General	NEUTRAL	N	N	neutral	@ShannonPotta $15 paypal	http://twitter.com/_eRaAus/status/434553726402318336
+PayPal_General	NEGATIVE	N	Y	negative	asdfghj... The definition of karma: PayPal president's credit card gets hacked http://t.co/b5jt6Aypwg	http://twitter.com/_erdemk/status/433273305395523584
+Google_Wallet	NEUTRAL				RT @AndroidPolice: PSA: Google Wallet 'Tap And Pay' Functionality Appears To Be Working On Most KitKat Updates For Devices On Isis... http:â€_	http://twitter.com/_ERib/status/438834827660652544
+PayPal_General	NEGATIVE	N	N	neutral	@mdznr :( Wonder why. You could paypal me or use squarecash instead if that is easier	http://twitter.com/_erica/status/430202489342685184
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_Erich_/status/430076298333921281
+PayPal_General	NEUTRAL	N	N	neutral	"RT @zxzcdx: IF THE SEATTLE SEAHAWKS DO NOT WIN THE SUPERBOWL TODAY, I WILL SEND EVERYONE WHO RETWEETS THIS $100 ON PAYPAL http://t.co/27vcfâ€_"	http://twitter.com/_EricJSmith/status/430126387094360064
+PayPal_General	NEUTRAL	N	N	neutral	"â€œ@andrewkucz: Won 34 mil in the March 1st Powerball ! Giving $1,000 ...http://t.co/WwDpombgsmâ€ùyea cause people put 34 mill on their Paypal"	http://twitter.com/_eristotle_/status/441299715762954240
+PayPal_General	POSITIVE	N	N	neutral	RT @NANOJEFE: I GOT THE BRONCOS WINNING THE SUPERBOWL!!! RETWEET THIS & IF THEY LOSE I WILL PAY U $50 THRU PAYPAL http://t.co/nLREIauO97	http://twitter.com/_erkydayy_/status/430142391040090112
+PayPal_General	NEUTRAL	N	N	neutral	RT @NeinQuarterly: First we take Manhattan. Then we take Kiev. Then we take PayPal. http://t.co/jZ4J7MTIq2	http://twitter.com/_ermin/status/437310658712203264
+PayPal_General	NEUTRAL	N	N	neutral	Just received a payment from my dude on PayPal _Ÿ’¸ #CleanBusiness	http://twitter.com/_Erock_100/status/437367006661472256
+PayPal_General	NEUTRAL	N	N	neutral	Received another payment on paypal _Ÿ’¸	http://twitter.com/_Erock_100/status/437386085426298880
+PayPal_General	NEUTRAL	N	N	neutral	Just Received a payment on PayPal from my nigga	http://twitter.com/_Erock_100/status/439588360118865920
+PayPal_General	NEUTRAL	N	Y	positive	RT @PayPal: You wouldnâ€™t share your Twitter password. Why reveal your credit card data when you shop? #paypalit The safer way to pay.	http://twitter.com/_ES_M_ER_/status/441780354278383618
+PayPal_General	NEUTRAL	N	N	neutral	RT @iCollectNudes: IF SEAHAWKS LOSE ILL PAYPAL EVERYONE THAT RETWEETS THIS $50 NOT PLAYIN B http://t.co/Ijan2IAxid	http://twitter.com/_esabrendaa/status/430134719708024833
+PayPal_General	NEUTRAL	N	N	neutral	But to her it plays out all the same #PayPalMaÄŸdurlarÄ±TakipleÅŸiyor	http://twitter.com/_EsMeR_EsMeR_/status/448847734921895936
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_esoJ__/status/430143440551440384
+PayPal_General	NEUTRAL	N	N	neutral	RT @FreezeTourney: 2v2 1nD 5$ buy in@ me for paypalstarts at 12ESTRT @CoDGhostsScrims @CoD_RTs @CoDRT24_7 @RTsForGamers @AllThingsCOD_ @â€_	http://twitter.com/_eSportsRT_/status/435628458991820801
+PayPal_General	NEUTRAL	N	N	neutral	RT @FLannK: Paying $5 paypal for an unlock all lobby on ghosts. Need proof. @ABOUTx99NINJAS @eLvRetweet @ShawnAbner @CoDGhostsScrims @Twonkâ€_	http://twitter.com/_eSportsRT_/status/435630581078953986
+PayPal_General	NEUTRAL	N	N	neutral	RT @GrizzlyTourneys: Need 2 Teams for a 2v2 SnD 1nD $5 buy-in come sign up!! Paypal : GrizzlyTourneys@hotmail.com will start up at 4+ teamsâ€_	http://twitter.com/_eSportsRT_/status/435817405151858688
+PayPal_General	NEUTRAL	N	N	neutral	RT @GrizzlyTourneys: Need 2 more team for this 2v2 SnD 1nD $5 buy-in Paypal : GrizzlyTourneys@hotmail.com Put GTs in note!! @ShawnAbner @COâ€_	http://twitter.com/_eSportsRT_/status/435817853153837056
+PayPal_General	NEUTRAL	N	N	neutral	RT @FFluXuaTe: selling my 3 digit rank  GB account for 20$ paypal hmu @ShawnAbner @Zandar_Cage @codRTer @CoDGhostsScrims @CoDCommunityRT	http://twitter.com/_eSportsRT_/status/435820070753677313
+PayPal_General	NEUTRAL	N	N	neutral	RT @GrayTournaments: 2v2 $6 1ND  8:00 EST  PayPal in Bio  Put GTs in Notes! Trying to get 6+ TEAMS!  @shawnabner @TourneyTracker @ABOUTâ€_	http://twitter.com/_eSportsRT_/status/435853161069162496
+PayPal_General	POSITIVE	N	N	neutral	RT @EliteOLT: 7.50$ 3v3 bo3 @ 6:15est @ me for the paypal RT & TAG YOUR DUOOOO! Rts are appreciated <33333333333333	http://twitter.com/_eSportsRT_/status/435903060594798592
+PayPal_General	NEUTRAL	N	N	neutral	RT @ExtremeTournies: 2v2 1nd  $5 entry  starts at 4+ teams PayPal in BIO  GT's in payment @QuickestRT @ShawnAbner @ABOUTx99NINJAS	http://twitter.com/_eSportsRT_/status/435912286809513985
+PayPal_General	NEUTRAL	N	N	neutral	RT @EliteOLT: MW3 5$ 2v2 1nD @ 8:20est teams:2BO2 6$ 3v3 1nD @ 8:20est teams:2starting once i get 4-5 teams@ me for paypalRT & TAG UR Fâ€_	http://twitter.com/_eSportsRT_/status/436305852647997441
+PayPal_General	NEUTRAL	N	N	neutral	RT @TwistedRemixx: Anyone want to buy ITunes for PayPal Hmu @FastestRTs @CoDGhostsScrims @ShawnAbner @Gamerr_Trains @DarkWolfTourney	http://twitter.com/_eSportsRT_/status/436351357704871936
+PayPal_General	NEUTRAL	N	N	neutral	RT @ReflexTourney: 2v2 1nD  $3 entry  starts at 4+ teams PayPal in BIO  GT's in payment1 team in  @ShawnAbner	http://twitter.com/_eSportsRT_/status/436409436551131136
+PayPal_General	NEUTRAL	N	N	neutral	RT @LESTO818: @QuickestRT Looking to buy GB credits over paypal..HMU!	http://twitter.com/_eSportsRT_/status/436581964397551616
+PayPal_General	NEUTRAL	N	N	neutral	RT @ReflexTourney: 2v2 1nD  $4 entry  starts at 6+ teams PayPal in BIO  GT's in payment1 TEAM IN  @ShawnAbner @QuickestRT	http://twitter.com/_eSportsRT_/status/436653382493687808
+PayPal_General	NEUTRAL	N	N	neutral	RT @ReflexTourney: 3v3 1nD  $3 entry  starts at 6+ teams PayPal in BIO  GT's in payment3 TEAMS IN  @QuickestRT @CODGhostScrims	http://twitter.com/_eSportsRT_/status/437101746939117569
+PayPal_General	NEUTRAL	N	N	neutral	RT @ReflexTourney: 3v3 1nD  $3 entry  starts at 6+ teams PayPal in BIO  GT's in payment3 TEAMS IN  @QuickestRT @TourneyTracker	http://twitter.com/_eSportsRT_/status/437105894715699200
+PayPal_General	NEUTRAL	N	N	neutral	RT @Clarke_Tournies: Hosting a 4v4 variant Bo3 tomorrow at 1 30 eastern 5$ Buy in on 360 paypal is in bio send gts in the details in paymenâ€_	http://twitter.com/_eSportsRT_/status/437106431095885824
+PayPal_General	NEUTRAL	N	N	neutral	RT @ReflexTourney: 3v3 1nD  $3 entry  starts at 6+ teams PayPal in BIO  GT's in payment3 TEAMS IN  @QuickestRT @_themister7_	http://twitter.com/_eSportsRT_/status/437106802979647488
+PayPal_General	NEUTRAL	N	N	neutral	RT @SieGeTournies: @ShawnAbner @ABOUTx99NINJAS @OnPointTourneys hosting 2v2 1nd $3  entry 90% payout (360) today at 3:30est paypal in bio bâ€_	http://twitter.com/_eSportsRT_/status/437665782709772288
+Apple_Passbook	POSITIVE				@cineworld When will the qr codes/apple passbook system be available to unlimited customers??? Unless it already is? Thanks	http://twitter.com/_EssDubz_/status/440227460823941120
+PayPal_General	NEUTRAL	N	Y	neutral	do you have to have a paypal account for eBay?	http://twitter.com/_EssJay/status/437028636794040320
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_Essmmee/status/430037576557555713
+PayPal_General	NEUTRAL	N	N	neutral	RT @JGustanov: Screw it. RT and ill send everyone $100 (must be following to dm me paypal link) I'm gonna stop after 15k rts. http://t.co/bâ€_	http://twitter.com/_Ethn/status/443905085190705153
+PayPal_General	NEUTRAL	N	N	neutral	"RT @zxzcdx: IF THE SEATTLE SEAHAWKS DO NOT WIN THE SUPERBOWL TODAY, I WILL SEND EVERYONE WHO RETWEETS THIS $100 ON PAYPAL http://t.co/27vcfâ€_"	http://twitter.com/_ETrayy/status/430122577978068993
+PayPal_General	POSITIVE	N	N	positive	RT @rottenasswizard: confess your love for me through paypal	http://twitter.com/_eun0ia/status/442325127938600960
+PayPal_General	NEUTRAL	N	Y	negative	@Skyehdactyl @Daevaluque How do you even set the price for commissions? And how do Paypal works anyway? I'm a cavewoman. Dang.	http://twitter.com/_eun914/status/432540047863066625
+PayPal_General	NEGATIVE	N	Y	negative	@Skyehdactyl @Daevaluque I somehow managed to add a bank account and I don't know how you transfer money to paypal :/	http://twitter.com/_eun914/status/432540979447349248
+PayPal_General	NEUTRAL	N	Y	neutral	@xshurimupu do you have to verify your paypal account with a credit card? I only linked my bank account to my paypal :O	http://twitter.com/_eun914/status/437920748137496576
+PayPal_General	NEUTRAL	N	Y	neutral	@xshurimupu then I'll just have to transfer money from my paypal to my bank account?	http://twitter.com/_eun914/status/437924547753291777
+PayPal_General	MIXED	N	Y	negative	"Well I didn't get a ""fist of the first men"" print.... PayPal refund. Good way to start the weekend #pissed @LTDartgallery @markenglert"	http://twitter.com/_European_Bob_/status/439733802626449408
+PayPal_General	POSITIVE	N	N	neutral	â€œ@jaewestcoast_: If I had $1 in my PayPal account I'd fa sholy send it to my boy @_EVANGELO lol #SteelerGangâ€ù already homie. #SteelerNation	http://twitter.com/_EVANGELO/status/447133367528849408
+PayPal_General	POSITIVE	N	N	neutral	RT @jaewestcoast_: If I had $1 in my PayPal account I'd fa sholy send it to my boy @_EVANGELO lol #SteelerGang	http://twitter.com/_EVANGELO/status/447133471635304448
+PayPal_General	NEUTRAL	N	N	neutral	"RT @zxzcdx: IF THE SEATTLE SEAHAWKS DO NOT WIN THE SUPERBOWL TODAY, I WILL SEND EVERYONE WHO RETWEETS THIS $100 ON PAYPAL http://t.co/27vcfâ€_"	http://twitter.com/_EvenDeeper/status/430105052296908800
+PayPal_General	NEUTRAL	N	N	neutral	RT @MikiHope: $25 PayPal/Amazon-WW-Romance is in the Air Giveaway Hop-Ends 2/14 http://t.co/wo8GGzkl1N http://t.co/FqM0dVxnF3	http://twitter.com/_Everyday_Life_/status/431869919043809280
+PayPal_General	POSITIVE	N	N	positive	Happy #HeartHop #giveaway enter to win $25 Amazon/Paypal lots of #prizes to be won! Please RT! http://t.co/1BSM63yGJA	http://twitter.com/_Everyday_Life_/status/432946987395072000
+PayPal_General	NEUTRAL	N	N	neutral	RT @MikiHope: #AWBloggers FREE Group Giveaway sign ups now open - $75 Paypal gift card for one winner - taking 25 bloggers http://t.co/gjlxâ€_	http://twitter.com/_Everyday_Life_/status/434326906209841153
+PayPal_General	NEUTRAL	N	N	neutral	RT @MikiHope: Bloggers Needed for a PayPal G/C Giveaway http://t.co/Ze41JAFcit	http://twitter.com/_Everyday_Life_/status/435974143906160640
+PayPal_General	NEUTRAL	N	N	neutral	RT @cjade20: .....Journey To Jhady's World....: $100 PayPal Cash #Giveaway: http://t.co/VUBRYqUcW5	http://twitter.com/_Everyday_Life_/status/439195110841274369
+PayPal_General	NEUTRAL	N	N	neutral	RT @MikiHope: $75 PayPal + a Maxxable Phone Clip-Ends 3/20 http://t.co/VZOq2jumY3 http://t.co/Kf924tMmaf	http://twitter.com/_Everyday_Life_/status/439906458747293696
+PayPal_General	NEUTRAL	N	N	neutral	RT @MikiHope: $75 PayPal + a Maxxable Phone Clip-Ends 3/20 http://t.co/VZOq2jumY3 http://t.co/7wzKlAq202	http://twitter.com/_Everyday_Life_/status/441303185941360640
+PayPal_General	NEUTRAL	N	N	neutral	RT @MikiHope: $25 PayPal GA-WW-The Magical March Hop Event--Ends 3/17 http://t.co/FcS8wjnJnb http://t.co/pjSGNTBnad	http://twitter.com/_Everyday_Life_/status/445347927767416832
+PayPal_General	NEUTRAL	N	N	neutral	RT @MikiHope: $25 Amazon/PayPal-WW-Lucky Leprechaun Giveaway Hop-Ends 3/24 http://t.co/9t6BI4ivx5 http://t.co/3ss7uYX4WE	http://twitter.com/_Everyday_Life_/status/445625104027103233
+PayPal_General	NEUTRAL	N	N	neutral	RT @MikiHope: $75 PayPal + a Maxxable Phone Clip-Ends 3/20 http://t.co/VZOq2jumY3 http://t.co/TaeUDzwmS5	http://twitter.com/_Everyday_Life_/status/446057859386974209
+PayPal_General	NEUTRAL	N	N	neutral	RT @MikiHope: $100 PayPal Giveaway -#AnnaNaturalsTeas-Ends 4/15 http://t.co/9L50W13s7b http://t.co/KdSc5iH5KI	http://twitter.com/_Everyday_Life_/status/446464754014769152
+PayPal_General	NEUTRAL	N	N	neutral	RT @MikiHope: Ends tonight at midnight 3/20 $75 PayPal + a Maxxable Phone Clip-Ends 3/20 http://t.co/w5Ya6ViD5J	http://twitter.com/_Everyday_Life_/status/446775873103216640
+PayPal_General	NEUTRAL	N	N	neutral	RT @Monica61: WIN $500 via Paypal!  Spring Fever Cash Giveaway!... http://t.co/Cz4foyhHFi	http://twitter.com/_Everyday_Life_/status/447134662155309056
+PayPal_General	NEUTRAL	N	N	neutral	PayPal=Evi	http://twitter.com/_EverySunset_/status/431186251442421760
+PayPal_General	NEUTRAL	N	N	neutral	Everything Tech: Bitcoin Is The New PayPal http://t.co/31ietRFYmd	http://twitter.com/_everythingtech/status/436564140581482497
+PayPal_General	NEUTRAL	N	N	neutral	Bitcoin Is The New PayPal http://t.co/SBi8xugyGh	http://twitter.com/_everythingtech/status/436573356423655426
+PayPal_General	POSITIVE	N	N	positive	Y'all really sending that girl birthday money thru PayPal? Lmao. She's pretty but dam. Do you guys even know her _Ÿ˜‚	http://twitter.com/_evetteee/status/442444460903763968
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_eviesteele/status/430049381245779969
+PayPal_General	NEGATIVE	N	N	neutral	@GunnaCTMG that paypal account you RT'd has me sick	http://twitter.com/_EWM3/status/441973758127898624
+PayPal_General	NEUTRAL	N	N	negative	@peytonism @Vuttery sell 07 gold for paypal idiot and make monry!!	http://twitter.com/_exalt_/status/437085013507452929
+PayPal_General	NEUTRAL	N	N	neutral	@supsira show proof i dont even have that much paypal bloxking for 4th time	http://twitter.com/_exalt_/status/439241118857695232
+Stripe	NEUTRAL				Payments underdog Balanced challenges PayPal and Stripe with new pricing model (and momentum) http://t.co/e3Ka2AikWX #execfintech	http://twitter.com/_ExecIO/status/439418761482092545
+PayPal_General	NEUTRAL	N	N	neutral	Payments underdog Balanced challenges PayPal and Stripe with new pricing model (and momentum) http://t.co/e3Ka2AikWX #execfintech	http://twitter.com/_ExecIO/status/439418761482092545
+PayPal_General	NEUTRAL	N	N	neutral	RT @princessthot: If the Seahawks lose I'll paypal $50 to everyone who RT's this	http://twitter.com/_ExhibitC_/status/430129551323058176
+PayPal_General	NEUTRAL	N	N	neutral	RT @I_am_Demonic: @ViZ_Tournys 10$ Paypal or subway	http://twitter.com/_ExiB/status/431551945921150978
+PayPal_General	NEUTRAL	N	N	neutral	RT @dashboardrage: selling titanfall beta code for $20 paypal RT please	http://twitter.com/_ExiB/status/434813991496744960
+PayPal_General	NEUTRAL	N	N	neutral	RT @Campanaaa_XBL: If I get to 1k followers by Tuesday night. I will give everyone who RT's this $10 off my paypal. (I have $4247.59)	http://twitter.com/_ExiB/status/435092128247853056
+PayPal_General	NEUTRAL	N	N	neutral	@stiingzgaming @AvengeTourneys $100 paypal	http://twitter.com/_ExiB/status/435094006167379968
+PayPal_General	NEUTRAL	N	N	neutral	@Dealtah nah i dont have any money on my paypal or anything	http://twitter.com/_ExiB/status/441375983300804608
+PayPal_General	NEUTRAL	N	N	neutral	RT @Gamer_GFX: $20 PayPal Giveaway! When we hit 14.2k followers we will giveaway $20 via PayPal!Follow and RT this to enter!	http://twitter.com/_ExiB/status/447908464040624128
+PayPal_General	NEUTRAL	N	N	neutral	"RT @zxzcdx: IF THE SEATTLE SEAHAWKS DO NOT WIN THE SUPERBOWL TODAY, I WILL SEND EVERYONE WHO RETWEETS THIS $100 ON PAYPAL http://t.co/27vcfâ€_"	http://twitter.com/_exxog/status/430108522995396608
+PayPal_General	NEUTRAL	N	N	neutral	"RT @zxzcdx: IF THE SEATTLE SEAHAWKS DO NOT WIN THE SUPERBOWL TODAY, I WILL SEND EVERYONE WHO RETWEETS THIS $100 ON PAYPAL http://t.co/27vcfâ€_"	http://twitter.com/_eyelashes_/status/430144414711693312
+PayPal_General	NEGATIVE	N	N	negative	â€œ@UrFaveLatina: I don't feel like working. Send money to my paypal .... milafbookings@yahoo.com _Ÿ’°â€ù Thot shit _Ÿ˜‚	http://twitter.com/_EyesXtayLow/status/430905217211973632
+PayPal_General	NEUTRAL	N	N	neutral	RT @trapyeezus: If the Seahawks lose I'll paypal $20 to everyone who RT's this	http://twitter.com/_eyezayuhh/status/430088390315220993
+PayPal_General	POSITIVE	N	N	neutral	thanks to everybody that leased and bought beats i hope you all enjoy i accept paypal western union hit me for beats beats/w hooks	http://twitter.com/_EzeeCash/status/435342915112402944
+PayPal_General	NEUTRAL	N	N	neutral	RT @UnseenCats: GIVEAWAY: RT AND FOLLOW TO ENTER. $50 PAYPAL!! WINNER WILL BE ANNOUNCED AT 100 RETWEETS!!!	http://twitter.com/_EzraLoL/status/437685412971446273
+PayPal_General	NEUTRAL	N	Y	negative	RT @_NaughtyCuddles: Paypal is SO dangerous.	http://twitter.com/_f0xandthew0lf/status/440420023366979584
+PayPal_General	NEGATIVE	N	N	negative	Broke niggas like ya little cousins. Need u to paypal them $20 and shit. Pathetic!!  :(	http://twitter.com/_FabDLSass/status/448230382006439936
+PayPal_General	NEUTRAL	N	N	neutral	@healthdesigns Order #100736978 - Pending until today because? was already pay by paypal.	http://twitter.com/_FabioJackson/status/432498721356402688
+PayPal_General	NEUTRAL	N	N	neutral	@healthdesigns   another Order #100725397 - Pending until today because? was already pay by paypal.	http://twitter.com/_FabioJackson/status/432501175900839937
+PayPal_General	NEUTRAL	N	N	neutral	#MasterCard vs #PayPal http://t.co/wTmtJPLuGs	http://twitter.com/_FabioPaolucci_/status/448027408386768896
+PayPal_General	NEUTRAL	N	Y	neutral	PayPal President David Marcus and The Wrath of Cant: David Marcus may not have endeared himself to some of tho... http://t.co/zkfLwokLrf	http://twitter.com/_faenjorgenzo99/status/433796399847591936
+PayPal_General	NEUTRAL	N	Y	neutral	Galaxy S5 fingerprint sensor lets people shop with PayPal: While Samsung's new smartphone allows for digital p... http://t.co/2AVEwXGdRx	http://twitter.com/_faenjorgenzo99/status/438146789548359680
+Google_Wallet	NEUTRAL				Google Wallet app now tracks your online buys:  Google Wallet adds new feature to track online purchases.  (Cr... http://t.co/F3Nv2rNO4I	http://twitter.com/_faenjorgenzo99/status/443861965245399040
+PayPal_General	NEUTRAL	N	N	neutral	Restaurant uses parachutes and PayPal to deliver sandwiches:  A woman removes the parachute from her just-land... http://t.co/kuKEZipw6z	http://twitter.com/_faenjorgenzo99/status/447060749815250944
+PayPal_General	NEUTRAL	N	Y	neutral	RT @onbom8991: It's not expensive.Fee of paypal is so expensive(Â´à__àº¶_”à__àº¶`)â€_We have to pay 4.3% fee in Taiwan.Also need to pay fee of goods anâ€_	http://twitter.com/_fairytaem/status/434609439136440321
+PayPal_General	NEUTRAL	N	Y	neutral	RT @ateeeeqkhan: PayPal and eBay Websites Defaced by Syrian Electronic Army http://t.co/3R16BtQwrY #ccureit	http://twitter.com/_faix_/status/430292493436219392
+PayPal_General	NEUTRAL	N	N	neutral	@KweenSooyoung credit or debit card or paypal.	http://twitter.com/_FakeFan_/status/438057916344832000
+PayPal_General	NEUTRAL	N	N	neutral	RT @Arief0019: Paypal+Credit Card checker FREE!!http://t.co/kQTD8LCt6G	http://twitter.com/_farel_25/status/442205114955079680
+PayPal_General	NEUTRAL	N	N	neutral	send me birthday wishes via paypal	http://twitter.com/_fashionkilla/status/432387805260427265
+PayPal_General	NEUTRAL	N	N	neutral	RT @thebittenapple_: Found gas for $2.79 send $25 to my paypal account and ill tell you where.	http://twitter.com/_FastForward/status/445998528511238144
+PayPal_General	NEUTRAL	N	N	neutral	Looking for Flint 13's Size 10.5 for a reasonable price!! Paypal Ready. Please RT! @mrFOAMERSIMPSON	http://twitter.com/_FATFooLio/status/432581376832196609
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_fayegibson/status/430126481113489408
+PayPal_General	NEUTRAL	N	Y	neutral	"RT @HRGrapevine: PayPal President, David Marcus, tells disengaged employees to quit #hr #engagement #paypal http://t.co/ksW27mzZiO"	http://twitter.com/_fbmltd/status/434008529213853697
+PayPal_General	NEUTRAL	N	N	neutral	So this nigga hit me up talmbout making money with my eBay and paypal bruh ima screenshot and send it to you.	http://twitter.com/_FeliciaTheGoat/status/440750356356947968
+PayPal_General	POSITIVE	N	N	positive	â€œ@GrailsOnGrails: any of yâ€™all use the paypal debit card?â€ù Great investment.	http://twitter.com/_FeliciaTheGoat/status/442082384641794048
+PayPal_General	NEUTRAL	N	N	neutral	RT @GiuseppeJoe32: DS Tiffany Dunk High SB sz11...trade for DS sz9-9.5 or $340 NYC/NJ meet up/$355 shipped USPS Priority through Paypal httâ€_	http://twitter.com/_FeliciaTheGoat/status/442399381514645504
+PayPal_General	POSITIVE	N	Y	negative	Look man. Lol if paypal donâ€™t give me my fucking money Iâ€™ll stop the shoes now.	http://twitter.com/_FeliciaTheGoat/status/443280518432694272
+PayPal_General	NEUTRAL	N	Y	neutral	Every food establishment needs to start taking paypal.	http://twitter.com/_FeliciaTheGoat/status/444700459899830272
+PayPal_General	NEUTRAL	N	N	neutral	Is that a no? If I walk in with my paypal info will they kick me out?	http://twitter.com/_FeliciaTheGoat/status/444700643996233728
+PayPal_General	NEUTRAL	N	N	neutral	If they take paypal Iâ€™ll cop for errbody.	http://twitter.com/_FeliciaTheGoat/status/444700815958474752
+PayPal_General	NEUTRAL	N	N	neutral	@Scotty_DoesIt they take paypal b.	http://twitter.com/_FeliciaTheGoat/status/444709596117348352
+PayPal_General	NEUTRAL	N	N	neutral	â€œ@_TaJhan_: Bet me a dollar and go upstairs an peoples elbow my momsâ€ù  I got my paypal on it.	http://twitter.com/_FeliciaTheGoat/status/444712022198845440
+PayPal_General	NEUTRAL	N	N	neutral	@_TaJhan_ paypal is cash bih	http://twitter.com/_FeliciaTheGoat/status/444712150720712704
+PayPal_General	POSITIVE	N	N	neutral	@OhThatsAkeel _Ÿ˜ê paypal ainâ€™t giving me my bread till Monday lmao	http://twitter.com/_FeliciaTheGoat/status/444712744005013505
+PayPal_General	NEUTRAL	N	N	neutral	Paypal finally paid a G.	http://twitter.com/_FeliciaTheGoat/status/445375994153926656
+PayPal_General	POSITIVE	N	Y	negative	Once drug dealers start accepting paypal Iâ€™ll really be impressed with the world.	http://twitter.com/_FeliciaTheGoat/status/445425309568221184
+PayPal_General	NEUTRAL	N	N	neutral	"@builtwithbison @pixelfear Paypal would be cool or Bitcoin alternatively, though that would require some days."	http://twitter.com/_felics/status/430739450381873153
+PayPal_General	NEUTRAL	N	N	neutral	"@JorgeStolfi by adding a single 3rd-party. Right now there are many for a single tx: credit card or bank, PayPal, the store."	http://twitter.com/_Felipe/status/446668833009709056
+PayPal_General	POSITIVE	N	N	neutral	@onefifa paypal? :)	http://twitter.com/_felix227/status/434805220674375680
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_Felixx1/status/429966458349969408
+PayPal_General	NEUTRAL	N	N	neutral	RT @GimmeACode: #RT this if you have $1 in your PayPal account! #Massive #Charity #XBL	http://twitter.com/_Felixx1/status/444948766706388992
+PayPal_General	POSITIVE	N	N	positive	"@_Dan_Roberts thank you :) I can do PayPal, money orders (po box?), whatever you want lol."	http://twitter.com/_Fem_Shep/status/443662365566185472
+PayPal_General	POSITIVE	N	N	positive	"@RiyitaCP Rita, we've heard enough. Go back to your PayPal account and trade more codes. Thanks!"	http://twitter.com/_Ferdthebird/status/446106127978475520
+PayPal_General	NEUTRAL	N	N	neutral	"RT @LibbykinSigma3: @rickygervais ""@mash2708: Donations for #HelpColin @NWDogRescue can be made via paypal helpnwdogrescue@gmail.com  http:â€_"	http://twitter.com/_Fernanda_GB/status/440168177591652352
+PayPal_General	NEUTRAL	N	N	neutral	There's Â£1.09 on my card after paypalling this girl for her nana card and I've noy heard from her since	http://twitter.com/_fiendishthingy/status/431009717490819072
+PayPal_General	NEUTRAL	N	N	neutral	"Selling coins very cheap for those who have been reset, 6.50/100k paypal, ps only"	http://twitter.com/_Fifa_Betting/status/443159722653679617
+PayPal_General	NEUTRAL	N	N	neutral	RT @RLAL93: If Manchester Qualify to the next tonight i will send 1 you luck people Â£20 via Paypal to enter all you have to do is RT!!!!!	http://twitter.com/_FifaGiveaway7_/status/446409982528217088
+PayPal_General	NEUTRAL	N	N	positive	Called paypal they told me happy valentines day	http://twitter.com/_FifteenCent/status/434200061237399552
+PayPal_General	NEUTRAL	N	N	neutral	@ChoklateWasted_ or you take paypal	http://twitter.com/_FifteenCent/status/434799062080950272
+PayPal_General	NEUTRAL	N	N	neutral	I Need To Get My Paypal Jumpin' Though	http://twitter.com/_Fiinesse/status/431641176316207106
+PayPal_General	NEUTRAL	N	N	neutral	Got My Paypal In FULL EFFECT _Ÿ™Œ	http://twitter.com/_Fiinesse/status/434818864611065856
+PayPal_General	NEUTRAL	N	N	neutral	Shout out to my paypal tho. _Ÿ˜_	http://twitter.com/_Fiinesse/status/434823759976218624
+PayPal_General	NEUTRAL	N	N	neutral	my paypal i$ bangin' righh noww	http://twitter.com/_Fiinesse/status/443461751036997632
+PayPal_General	NEGATIVE	N	N	neutral	@Quinoaaa yea but my paypal ain't $end it thru yet :(	http://twitter.com/_Fiinesse/status/445606094229209088
+PayPal_General	NEUTRAL	N	N	neutral	RT @quionce: â€œ@_FinallyFAMOUS: Ashanti dropped an album? _Ÿ˜‚_Ÿ˜‚_Ÿ˜‚ that's gotta be a jokeâ€ù_Ÿ˜‚_Ÿ˜‚_Ÿ˜‚_Ÿ˜‚ BRAVEHEART. #1 on Paypal.	http://twitter.com/_FinallyFAMOUS/status/442156999107563520
+PayPal_General	NEUTRAL	N	Y	neutral	Who Needs Banks? PayPal and Lending Club Want to Make Small Business Loans http://t.co/5ZHIZyMOpX via @BW #banks #lending #paypal #P2P	http://twitter.com/_FinancialWorld/status/446931590103314433
+PayPal_General	NEUTRAL	N	N	neutral	"RT @zxzcdx: IF THE SEATTLE SEAHAWKS DO NOT WIN THE SUPERBOWL TODAY, I WILL SEND EVERYONE WHO RETWEETS THIS $100 ON PAYPAL http://t.co/27vcfâ€_"	http://twitter.com/_FirstClass/status/430099979793727488
+PayPal_General	POSITIVE	N	N	neutral	@Giirl_SheBoojie they need to gone set they paypal up and quit playing games lol not that I would buy or anything _Ÿ˜‚_Ÿ˜‚_Ÿ˜‚	http://twitter.com/_FisherOnKandy/status/443977826660663296
+PayPal_General	NEGATIVE	N	N	negative	RT @SmashhhEm: I hate PayPal with a passion.	http://twitter.com/_Fishhh/status/438191370033827840
+PayPal_General	NEUTRAL	N	N	neutral	@SmiteGame i have bought 800 gems through paypal and they havent been given to me what is going on	http://twitter.com/_Fishsticks/status/430834554643832832
+PayPal_General	NEUTRAL	N	Y	negative	RT @InjusticeFacts: In the U.S. it is legal to use your paypal account to donate money to the KKK but you cannot use paypal to donate to Wiâ€_	http://twitter.com/_Flee_/status/432340618128670720
+PayPal_General	NEUTRAL	N	N	neutral	When that square register and paypal money get deposited in your account > #grind	http://twitter.com/_FletchJR/status/434339057124929537
+PayPal_General	NEUTRAL	N	N	neutral	RT @iCollectNudes: IF SEAHAWKS LOSE ILL PAYPAL EVERYONE THAT RETWEETS THIS $50 NOT PLAYIN B http://t.co/Ijan2IAxid	http://twitter.com/_Flickin_Ashes_/status/430135489144705024
+PayPal_General	POSITIVE	N	N	positive	lol what's the $50 for?... the follow? Lolâ€œ@BiaBrokeMyHeart: $50 cash or paypal ? RT @_flizy: BiaBrokeMyHeart bout to. Follow me _flizyâ€ù	http://twitter.com/_flizy/status/436159630214189056
+PayPal_General	POSITIVE	N	N	neutral	@RobIsChill I've seen this exact paypal account and the exact amount on like 6 other twitter thirsty niggas accounts lolol _Ÿ˜‚_Ÿ˜‚_Ÿ˜‚_Ÿ˜‚	http://twitter.com/_Floggnaw_/status/430123926765973504
+PayPal_General	NEUTRAL	N	N	neutral	RT @iCollectNudes: IF SEAHAWKS LOSE ILL PAYPAL EVERYONE THAT RETWEETS THIS $50 NOT PLAYIN B http://t.co/Ijan2IAxid	http://twitter.com/_Fluffdaddy/status/430154301861036032
+PayPal_General	MIXED	N	N	negative	"RT @Nicoley410: @DeVanteB @_FluorescentBlu shit, what's her paypal? @JoJoistheway sis what's your PayPal for #lovejojo???"	http://twitter.com/_FluorescentBlu/status/445046410145435649
+PayPal_General	NEUTRAL	N	N	neutral	@WaTch_Thunduh @SirTriLLL something you use for Paypal	http://twitter.com/_FLuXTRUTH_/status/436389279762513921
+PayPal_General	NEUTRAL	N	N	neutral	I really needa start up a Paypal!!! @itsArostotle yo kik me real quick	http://twitter.com/_FLuXTRUTH_/status/437406508880760832
+PayPal_General	POSITIVE	N	N	neutral	@jajaBEAN hey do you have a paypal? I wanna send some $ so you can get me jewelry :)	http://twitter.com/_Flygerian/status/437945774862008320
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_flyshitonlyy/status/430056159190728704
+PayPal_General	NEUTRAL	N	N	neutral	â€œJordan 1 Dave White Size 129/10 $170PayPal readyLink in my bio to buy#theprivatestock http://t.co/zILxW8Yx5Gâ€ùfor the LOW!	http://twitter.com/_FlyyKidd_/status/431611662785736704
+PayPal_General	NEUTRAL	N	N	neutral	RT @ThePrivateStock: Jordan 1 Dave White Size 129/10 $170PayPal readyLink in my bio to buy#theprivatestock http://t.co/fCDy9YoGKB	http://twitter.com/_FlyyKidd_/status/431611665793052672
+PayPal_General	NEUTRAL	N	N	neutral	@danialsuhaimee you can just make paypal for free	http://twitter.com/_FNBBSAJ/status/438672121934274560
+PayPal_General	NEUTRAL	N	N	neutral	"@danialsuhaimee it's something like nets, you use the money from any of your bank account. But PayPal is for internet use if I'm not wrong."	http://twitter.com/_FNBBSAJ/status/438672603830419456
+PayPal_General	NEUTRAL	N	N	neutral	"RT @CKaepernickMVP: @ValiditySneaker would you mind rt'ing this for me plz:5 preludes available,all sz 5Y. $165 shipped via paypal/chase htâ€_"	http://twitter.com/_FOAMS_4B/status/432968967276466176
+PayPal_General	NEGATIVE	N	Y	negative	RT @trutherbot: Boycott @Paypal for cutting off all funds to #WikiLeaks. Fuck you Paypal.	http://twitter.com/_food_4thought/status/429683882154160130
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_foolishmortal/status/430126767043399680
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_ForeignJawn/status/430046732068868096
+PayPal_General	NEGATIVE	N	Y	negative	RT @TotalAttraction: I'm always forgetting my stupid Paypal password _Ÿ˜‘	http://twitter.com/_ForeverDopeXI/status/433641748061900800
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_foreveryoung_5/status/430019321545633792
+PayPal_General	NEUTRAL	N	Y	neutral	PayPal chief reams employees: Use our app orÂ quit http://t.co/45WauMn6Mt via @VentureBeat	http://twitter.com/_FOREWARD/status/433654374686937088
+PayPal_General	NEGATIVE	N	Y	negative	Syrian Electronic Army: We Hacked eBay and PayPal http://t.co/ZCj9RGsMMI	http://twitter.com/_Fortune_500/status/429727809993715712
+PayPal_General	NEUTRAL	N	N	neutral	"RT @__ETheDon: $5 for a IG shoutout send it to my Paypal, won't do shoutout until money is in my bank account."	http://twitter.com/_FortuneCookiee/status/433659477817294848
+PayPal_General	NEUTRAL	N	N	neutral	RT @iCollectNudes: IF SEAHAWKS LOSE ILL PAYPAL EVERYONE THAT RETWEETS THIS $50 NOT PLAYIN B http://t.co/Ijan2IAxid	http://twitter.com/_foster_marlon/status/430141983978303488
+PayPal_General	NEUTRAL	N	N	neutral	still tryna set up this PayPal thing so I can order my hair .	http://twitter.com/_FourFiveSixx/status/439915782621769728
+PayPal_General	NEUTRAL	N	N	neutral	#Win a $10 Amazon oor Paypal GC from @lisareneejones #bewitchingbooktours http://t.co/O89FpM2a8a	http://twitter.com/_frances25/status/435606038075568128
+PayPal_General	NEUTRAL	N	Y	neutral	@itunescarddeals Is this available with a canadian Paypal account?	http://twitter.com/_francisrl/status/443877055386890240
+PayPal_General	NEUTRAL	N	N	neutral	RT @gibbysart: RETWEET to win $5.00 on Paypal just for the hell of it (Must be following to win) Good luck.	http://twitter.com/_fraserhorne/status/429752289944166400
+PayPal_General	NEUTRAL	N	N	neutral	"RT @RoastMasterP: If @PSNCircuit breaks 7k within the next five minutes, I will give everyone who retweets this $1 Paypal. I'm feeling geâ€_"	http://twitter.com/_fraserhorne/status/440160225069649920
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_FreakyNate/status/430052136433750016
+PayPal_General	NEUTRAL	N	N	negative	Paypal would be gay when someone is trying buy my phone for $1100! Faggot ass Paypal.	http://twitter.com/_FredDrums/status/435193584690954240
+PayPal_General	NEUTRAL	N	N	neutral	RT @braylon3x_: I wonder what niggas would do of PayPal didn't exist	http://twitter.com/_FredMONEY/status/446842766765469696
+PayPal_General	NEUTRAL	N	N	neutral	RT @YoungGwuap_: Hmu if you need a mixtape/single cover _Ÿ’_ Must be paypal ready _Ÿ’¯_Ÿ’°	http://twitter.com/_Freeband_/status/436276491844714496
+PayPal_General	NEUTRAL	N	N	neutral	@rogercasares1 paypal?	http://twitter.com/_FreekyZeeky/status/430487969146101760
+PayPal_General	NEUTRAL	N	N	neutral	RT @IndiaRoseBBW: Outfit shows? Add my Skype IndiaRozy. PayPal required. Â£8 for 20 minutes. Xx http://t.co/XJcHxwEjb6	http://twitter.com/_freeloaders/status/437593291748425728
+PayPal_General	NEUTRAL	N	N	neutral	RT @IndiaRoseBBW: Skype name is IndiaRozy  add me for a naughty show. No taboos whatever goes. PayPal required	http://twitter.com/_freeloaders/status/438128103291125760
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_Freemybros100/status/430067749222510592
+PayPal_General	NEGATIVE	N	Y	neutral	RT @SneakerSt: DO NOT PAY PAYPAL INVOICES SENT VIA MOBILE. #SCAM	http://twitter.com/_Fresc0_/status/432606796034113536
+PayPal_General	NEUTRAL	N	N	neutral	"If a nicca wanna tweet ""yeezys for sale paypal me $ as a gift"" buyer beware. U just might lose out on that money if they ain't legit"	http://twitter.com/_Fresc0_/status/432631182036303872
+PayPal_General	POSITIVE	N	Y	neutral	RT @ValiditySneaker: Be safe with these Red Yeezy II transactions. Sellers: Don't use Paypal. Cash only. Buyers: Make sure you know whaâ€_	http://twitter.com/_Fresc0_/status/432916132249743361
+PayPal_General	NEUTRAL	N	Y	neutral	@SneakerheadFrat what's paypal address	http://twitter.com/_Fresc0_/status/435900609150324736
+PayPal_General	NEUTRAL	N	N	neutral	RT @EaglesandHeat: #Legit --> RT @Just4Kicks212 Air Jordan Powder Blue 10 sz 11 $185 Shipped PayPal only... thats retail ($170) plus shippiâ€_	http://twitter.com/_Fresc0_/status/438757929060409344
+PayPal_General	NEUTRAL	N	N	neutral	RT @lauraliuhe: Sorry PayPal: Chinaâ€™s Alipay is worldâ€™s No. 1 http://t.co/TnQMWzv3g9 via @MarketWatch	http://twitter.com/_FreshEncounter/status/432812863548190720
+PayPal_General	NEUTRAL	N	N	neutral	Everyone Hit me up customizing everything and anything paypal or check #peepthecomeup http://t.co/oUVWtMdZVN	http://twitter.com/_FThomas_/status/439579109623349248
+PayPal_General	NEUTRAL	N	N	neutral	5 Simple Steps to start making money online with PayPal Money Generator Hack  http://t.co/5zPYhtjjde	http://twitter.com/_FUck_Fucker_/status/444578388208930816
+Apple_Passbook	NEUTRAL				RT @iPhoneTeam: Burger King will now allow people to order food thru the passbook app.	http://twitter.com/_Fuck_Nick_/status/446288461058682881
+PayPal_General	NEGATIVE	N	N	negative	@rubyrubysoh0 GET THE FUCK UP AND GO DO SOMETHING *dm's paypal info*	http://twitter.com/_Fuckpants_/status/447071943355691008
+PayPal_General	NEUTRAL	N	N	neutral	"RT @JJ_HOPE23: Kindly asking for gift for raffles,door prizes,silent auction.Message me where to send. PayPal:jungboy08@gmail.com _Ÿ’— http://â€_"	http://twitter.com/_Fundraisers/status/437247531257724928
+PayPal_General	NEUTRAL	N	N	neutral	@PayPal @AskPayPal Sa	http://twitter.com/_Furkan_Yldrm_/status/446354050041118720
+PayPal_General	NEUTRAL	N	Y	negative	@AskPayPal - @PayPal is there a problem? I can't connect to the Paypal.	http://twitter.com/_Furkan_Yldrm_/status/446354883977822208
+PayPal_General	NEUTRAL	N	Y	negative	"RT @AskPayPal: @_Furkan_Yldrm_ PayPal is up/no problems.  If you're still experiencing issues, please clear cache and cookies and try againâ€_"	http://twitter.com/_Furkan_Yldrm_/status/446387830491979776
+PayPal_General	NEUTRAL	N	N	neutral	RT @RLAL93: So as I promised 1 lucky person will get Â£20 via paypal because Man U qualified to enter simply RT now!!!!	http://twitter.com/_FUT_HYPE/status/446406480255004672
+PayPal_General	NEUTRAL	N	Y	negative	@fouseyTUBE CAN I PAY SUING PAYPAL	http://twitter.com/_fvckablestyles/status/435961198627282944
+PayPal_General	NEUTRAL	N	N	neutral	RT @itsOddFuture: HUF SOCKS. (Cheap)Email - itsOddFuture@hotmail.com*must be PayPal ready* http://t.co/0qrqciLZFQ	http://twitter.com/_fvckdel/status/445954304680398849
+PayPal_General	NEUTRAL	N	N	neutral	"RT @BreonnaHall_: _Ÿ_¨CONTEST TIME_Ÿ_¨ we are giving out  $200 through paypal All you have to do is REVINE, LIKE, and FOLLOW to ent... https://t.â€_"	http://twitter.com/_FVCKINGBOSS/status/437680889498058752
+PayPal_General	NEUTRAL	N	N	neutral	OMG YALL. I got my sugar daddy to transfer money to my PayPal so that I could buy PF:RR when my grandma wouldnâ€™t let me use her card _Ÿ’€_Ÿ’€_Ÿ’€	http://twitter.com/_fvckjake/status/445427481651453952
+PayPal_General	NEGATIVE	N	Y	negative	"Fuck ebay and paypal,they be trying to play with a nigga's money and shit"	http://twitter.com/_FVCKS/status/443932445885628416
+PayPal_General	NEGATIVE	N	Y	negative	My paypal always acting up and shit	http://twitter.com/_FVCKS/status/448569168783499265
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_fvckyohoe/status/430051077334237184
+PayPal_General	NEUTRAL	N	N	neutral	RT @iCollectNudes: IF SEAHAWKS LOSE ILL PAYPAL EVERYONE THAT RETWEETS THIS $50 NOT PLAYIN B http://t.co/Ijan2IAxid	http://twitter.com/_fvckyohoe/status/430136111591989248
+PayPal_General	NEUTRAL	N	Y	neutral	@ForbesTech: Elon Musk and David Sacks say PayPal could top $100 billion away from eBay http://t.co/kkUJLJLOO0 how do ppl get these #s	http://twitter.com/_fwong_/status/435897272727896064
+PayPal_General	NEUTRAL	N	N	neutral	RT @VentureBeat: PayPal opens up its slick new mobile SDKs to all developers http://t.co/LqwV1w4ZNI by @devindra	http://twitter.com/_fwong_/status/436244664518066176
+PayPal_General	NEUTRAL	N	N	neutral	"RT @zxzcdx: IF THE SEATTLE SEAHAWKS DO NOT WIN THE SUPERBOWL TODAY, I WILL SEND EVERYONE WHO RETWEETS THIS $100 ON PAYPAL http://t.co/27vcfâ€_"	http://twitter.com/_fxckjvyda_/status/430125024079790080
+PayPal_General	NEUTRAL	N	N	neutral	Titanfall code for sale $5 Paypal	http://twitter.com/_G_A_G/status/434530900290727936
+Google_Wallet	NEUTRAL				RT @marshallk: Gmail just added the ability to send $ through Google Wallet link inside the Compose window. Rolling out to users http://t.câ€_	http://twitter.com/_G_P_/status/448347096073404416
+PayPal_General	NEUTRAL	N	N	neutral	RT @princessthot: If the Seahawks lose I'll paypal $50 to everyone who RT's this	http://twitter.com/_g_p_3_/status/430124324104585216
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_g_p_3_/status/430158479328681984
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_G4Gaming_/status/430034972733231104
+PayPal_General	NEUTRAL	N	N	neutral	"RT @zxzcdx: IF THE SEATTLE SEAHAWKS DO NOT WIN THE SUPERBOWL TODAY, I WILL SEND EVERYONE WHO RETWEETS THIS $100 ON PAYPAL http://t.co/27vcfâ€_"	http://twitter.com/_gabbyvalle/status/430150969264181250
+PayPal_General	NEUTRAL	N	N	neutral	RT @iCollectNudes: IF SEAHAWKS LOSE ILL PAYPAL EVERYONE THAT RETWEETS THIS $50 NOT PLAYIN B http://t.co/Ijan2IAxid	http://twitter.com/_Gabe_14/status/430134367596584960
+PayPal_General	NEUTRAL	N	N	neutral	RT @_MIAMIMONSTER: JUST GOT INTO MY DADS PAYPAL FIRST 20K TO RT THIS WILL GET $500 EACH!! (Must be following) http://t.co/kKtdFQSfXt	http://twitter.com/_gabriellllaaa/status/447408947629416448
+PayPal_General	NEUTRAL	N	N	neutral	http://t.co/c1eD5UVuQU PayPal Wants to Partner With Apple on Mobile Payment Platform http://t.co/EfqMVC6xkv	http://twitter.com/_gadgetsnews/status/430907928929775616
+PayPal_General	NEUTRAL	N	N	negative	I wish my paypal had millions of dollars so I could bless the shit out of people	http://twitter.com/_GAFFNEY_1/status/442754530401615872
+PayPal_General	NEUTRAL	N	Y	neutral	@seffkeegan I don't think PayPal accepts payment in buttons	http://twitter.com/_GAFFNEY_1/status/442769019326984192
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_Gaige5_/status/430140105773178880
+PayPal_General	NEUTRAL	N	N	neutral	"RT @zxzcdx: IF THE SEATTLE SEAHAWKS DO NOT WIN THE SUPERBOWL TODAY, I WILL SEND EVERYONE WHO RETWEETS THIS $100 ON PAYPAL http://t.co/27vcfâ€_"	http://twitter.com/_Gajewski_/status/430121090527272960
+PayPal_General	POSITIVE	N	N	neutral	"Yang butuh paypal stock 79 USD, rate 11.600...Borong semua 11.300 yuk ;)Bca only"	http://twitter.com/_galangpm/status/441834290179895296
+PayPal_General	POSITIVE	N	N	neutral	@joelldefranco bisa mas PM in email paypalnya rate 11.350 yak ;)	http://twitter.com/_galangpm/status/445189269942849536
+PayPal_General	NEUTRAL	N	N	neutral	@TourneyTracker $3 PER TEAM 360 BO2 THROW BACK SATURDAY 4v4 1ND SND 1pm EST - PAYPAL in bio & Send me Team Name and GTs	http://twitter.com/_GamerTourneys_/status/444686301166850049
+PayPal_General	NEUTRAL	N	N	neutral	RT @_VizioNs_: hosting 2v2 1nd $5 entry @ me for paypal @ShawnAbner @QuickestRT @TwonkyRTs @GamerRT_ @SmitingFatty	http://twitter.com/_GamerTourneys_/status/447104087138775041
+PayPal_General	POSITIVE	N	N	neutral	RT @MLG_Respect: Selling GB credits hmu paypal only $$ cheap @ or dm RTs r appreciated	http://twitter.com/_GamingRTs/status/449018714264834048
+Google_Wallet	POSITIVE				RT @PekkaPuhakka: #Google #Wallet just got more convenient â€” it now #tracks your #online #orders http://t.co/o1ei3ob8xp	http://twitter.com/_Gautier_S/status/443996357800783872
+PayPal_General	NEUTRAL	N	N	neutral	@heyisis @Fullscreen_BR Paypal via DM	http://twitter.com/_gaybol/status/447085749268385792
+PayPal_General	POSITIVE	N	N	neutral	@NIKERSVPSERVICE @kennyboomboom_ Boy is interested and he's PayPal ready. Any pics that you can send thru?	http://twitter.com/_GDaniel_/status/438298027292651520
+PayPal_General	NEUTRAL	N	N	neutral	RT @WiscoKicks: PAYPAL SCAMMER: ships to himself 662.469.3498/harrisdouglas6@gmail.com / Sends invoice from: shonthechamp@yahoo.com        â€_	http://twitter.com/_GDaniel_/status/443844647844999168
+PayPal_General	NEUTRAL	N	N	neutral	"RT @Mairjunc23: Please RT! Size 12 DS KD 6 ""Floral"" $250 shipped PayPal gift!! http://t.co/uifUKUFwo4"	http://twitter.com/_GDaniel_/status/447882641988399104
+PayPal_General	NEUTRAL	N	N	neutral	RT @AstroBoySwagg: @IcySoleOnline RT PLEASE. Jordan Future Glow size 13 DS & 100% Authentic. if you need these speak up. Be PayPal ready htâ€_	http://twitter.com/_GDaniel_/status/448181108245798912
+PayPal_General	NEUTRAL	N	N	neutral	Mum has almost bought the season 1-9 boxset of Grey's Anatomy _Ÿ˜_ C'mon Pam... Just type in your paypal password and we're good to go _Ÿ™Œ	http://twitter.com/_geekandproud/status/431536690134810624
+PayPal_General	NEUTRAL	N	Y	neutral	I really wish people would send me payment as a gift ;A; especially when sending me dollars- I lose a lot of money with the paypal fee	http://twitter.com/_GellyFish_/status/434840673720627200
+PayPal_General	NEUTRAL	N	N	neutral	Would anyone be interested in buying a signed Jai McDowall 'Believe' album? Must have paypal.	http://twitter.com/_Gemma325/status/432882413107417088
+PayPal_General	NEUTRAL	N	N	neutral	@Dorothy_Perkins can I return items I bought online to a shop if I paid with PayPal?	http://twitter.com/_GemmaC_/status/445951851834667008
+PayPal_General	NEGATIVE	N	Y	negative	Paypal on big bullshit. Stop emailing me bout dumb shit & give me my money back	http://twitter.com/_GeniuzGFx/status/430751453058060288
+PayPal_General	NEUTRAL	N	N	neutral	@tweek_tune Paypal ready?	http://twitter.com/_GeniuzGFx/status/430761498550337536
+PayPal_General	NEUTRAL	N	Y	neutral	@Paypal this dispute still not closed??	http://twitter.com/_GeniuzGFx/status/431615856708034560
+PayPal_General	NEUTRAL	N	N	neutral	@AskPayPal done	http://twitter.com/_GeniuzGFx/status/431915594007322625
+PayPal_General	NEUTRAL	N	Y	neutral	"If my Paypal account aint go through that Dispute, I could've bought em. Oh well. I'll be ready for Restock #2."	http://twitter.com/_GeniuzGFx/status/432586209596940288
+PayPal_General	NEUTRAL	N	Y	neutral	RT @TrillPerm: Got a love hate relationship w/ paypal	http://twitter.com/_GeniuzGFx/status/435510519915503616
+PayPal_General	NEUTRAL	N	N	neutral	Ain't nothing better than new money in yo paypal account.	http://twitter.com/_GeniuzGFx/status/436014363762122752
+PayPal_General	NEUTRAL	N	N	neutral	Send me money to my paypal y'all!!	http://twitter.com/_GeniuzGFx/status/447970423553015808
+PayPal_General	NEUTRAL	N	N	neutral	Send me money to my paypal _Ÿ˜_	http://twitter.com/_GeniuzGFx/status/448909885422309376
+PayPal_General	NEUTRAL	N	Y	neutral	Tricky balance to strike >> PayPal chief reams employees: Use our app orÂ quit http://t.co/Hm5HMZZp2t via @VentureBeat	http://twitter.com/_geoff_johnson/status/433698631187574784
+PayPal_General	NEUTRAL	N	Y	neutral	PayPal chief reams employees: Use our app orÂ quit http://t.co/EnP5sPzc2V via @VentureBeat	http://twitter.com/_geoff_johnson/status/433698693636575232
+PayPal_General	POSITIVE	N	N	positive	"My bday is Monday.  Accepting paypal donations, giftcards n cash.  Thanks."	http://twitter.com/_Georgianna/status/431867479548510209
+PayPal_General	NEUTRAL	N	N	neutral	"RT @zxzcdx: IF THE SEATTLE SEAHAWKS DO NOT WIN THE SUPERBOWL TODAY, I WILL SEND EVERYONE WHO RETWEETS THIS $100 ON PAYPAL http://t.co/27vcfâ€_"	http://twitter.com/_Geriiita/status/430124455650926592
+PayPal_General	NEUTRAL	N	N	neutral	"RT @DeFeEcT: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/9OHj2gqUjN"	http://twitter.com/_gerow/status/430028797807575040
+PayPal_General	POSITIVE	N	Y	positive	RT @ChampagneLove_: Paypal is so AWESOME :)	http://twitter.com/_GetLikeB/status/440292603271970816
+PayPal_General	NEUTRAL	N	Y	neutral	"We use PayPal methods, sorry for the inconvenience caused for people who thought it would be easier. However it is safer!"	http://twitter.com/_GetThem/status/446355232667488256
+PayPal_General	NEUTRAL	N	Y	neutral	The website uses PayPal! Safer and easier for you as a customer.	http://twitter.com/_GetThem/status/446355851000180736
+PayPal_General	NEUTRAL	N	N	neutral	Tryna cop a LowC shirt? http://t.co/MTR8EdFHJW Email yr size and address to wrmiii6@aol.com and paypal $12 to Outofvogue78@gmail.com #money	http://twitter.com/_GetToTheGigPHL/status/440527138782203904
+PayPal_General	NEUTRAL	N	N	neutral	"RT @LanaDelSunreys: IF THE DENVER BRONCOS DONT WIN THE SUPER BOWL TODAY, I WILL SEND EVERYONE WHO RT'S THIS $20 PAYPAL http://t.co/FbQEqccQâ€_"	http://twitter.com/_GetwIt/status/430167218031050752
+PayPal_General	NEGATIVE	N	Y	negative	Small issue with paypal is now fixed.  Order your audio now. Subliminal Weightloss Audio w/birds http://t.co/UgTkFV9qTt	http://twitter.com/_GetYourLifeOn/status/434898596299673602
+PayPal_General	NEUTRAL	N	N	neutral	RT @Salamand33R: Want me for Xmas? 8x10's =$10.99 Posters =$24.99+$7 shipping U.S. $15 international ~ ali23rose@yahoo.com & PayPalhttp:/â€_	http://twitter.com/_GFU/status/441292483381567488
+PayPal_General	NEUTRAL	N	N	neutral	@rattusRose Oops. I might have to wait until tomorrow. I thought it would connect to paypal where my info is saved. But I will soon!	http://twitter.com/_ghostling_/status/431648558597419008
+PayPal_General	NEUTRAL	N	N	neutral	"6$ 2v2 bo3 @ 5:45est, tweet me for the paypal, RT & TAG YOUR FRIENDS RT @RTGamers_ @CommGamers_RT @Cali_Gamers @SatelliteEsport RT"	http://twitter.com/_GhostTourneys/status/444574128721240064
+PayPal_General	NEUTRAL	N	N	neutral	"5$ 3v3 1nD @ 7est, Tweet me for the paypalRT @RTGamers_ @SatelliteEsport @Procall_MLG"	http://twitter.com/_GhostTourneys/status/444595661409759232
+PayPal_General	NEUTRAL	N	N	neutral	"5$ 3v3 1nD @ 7est, Tweet me for the paypal RT @RTGamers_ @SatelliteEsport @Procall_MLG **1 team signed up**"	http://twitter.com/_GhostTourneys/status/444597539342254081
+PayPal_General	NEUTRAL	N	N	neutral	10$ 4v4 bo3 @ 10:15tweet me for the paypalRT @ShawnAbner	http://twitter.com/_GhostTourneys/status/444646330799882240
+PayPal_General	NEUTRAL	N	N	neutral	"10$ 4v4 bo3 @ 10:15, tweet me for the paypal@RTGamers_ @Cali_Gamers @SatelliteEsport @CoDRT24_7"	http://twitter.com/_GhostTourneys/status/444646426237087745
+PayPal_General	NEUTRAL	N	N	neutral	"10$ 4v4 bo3 @ 10:20est, tweet me for the paypalRT @RTGamers_ 1 team signed up!"	http://twitter.com/_GhostTourneys/status/444649699685830658
+PayPal_General	NEUTRAL	N	N	neutral	"7.50$ 3v3 bo3 @ 6:30est, tweet me for the paypal, LETS GET 10+ TEAMS!!!!RT @RTGamers_ @SatelliteEsport"	http://twitter.com/_GhostTourneys/status/444944735178743808
+PayPal_General	NEUTRAL	N	N	neutral	"7.50$ 3v3 bo3 @ 6:30est, tweet me for the paypal, LETS GET 10+ TEAMS!!!!@ShawnAbner"	http://twitter.com/_GhostTourneys/status/444944769148411904
+PayPal_General	NEUTRAL	N	N	neutral	"7.50$ 3v3 bo3 @ 6:30est, tweet me for the paypal, LETS GET 10+ TEAMS!!!! RT @RTGamers_ @SatelliteEsport  1-2 teams signed up "	http://twitter.com/_GhostTourneys/status/444947033275654144
+PayPal_General	NEUTRAL	N	N	neutral	"7.50$ 3v3 bo3 @ 6:30est, tweet me for the paypal, LETS GET 10+ TEAMS!!!! RT@RTGamers_ RT GUYSSSSSSSSSSS1 team signed up"	http://twitter.com/_GhostTourneys/status/444952738674139136
+PayPal_General	NEUTRAL	N	N	neutral	"30min to sign up for the 7.50$ 3v3 bo3, Tweet me for the paypal1 team signed up RT RT RT!!!!!"	http://twitter.com/_GhostTourneys/status/444954696567255041
+PayPal_General	NEUTRAL	N	N	neutral	"30min to sign up for the 7.50$ 3v3 bo3, Tweet me for the paypal1 team signed up RT RT RT!!!!!."	http://twitter.com/_GhostTourneys/status/444954726535135232
+PayPal_General	NEUTRAL	N	N	neutral	"@hellzAK6 1 ill get more before it starts tho, paypal - ghosttourneys@yahoo.com"	http://twitter.com/_GhostTourneys/status/444956810756120576
+PayPal_General	NEUTRAL	N	N	neutral	"25min to sign up for the 7.50$ 3v3 bo3, Tweet me for the paypal RT RT RT!!!!!.2 teams signed up!"	http://twitter.com/_GhostTourneys/status/444957609083142144
+PayPal_General	NEUTRAL	N	N	neutral	6$ 3v3 1nD in 45min! Tweet me for the paypal!RT if your signing up RT @RTGamers_ @ShawnAbner	http://twitter.com/_GhostTourneys/status/444972768740659200
+PayPal_General	NEUTRAL	N	N	neutral	"6$ 3v3 1nD in 45min!, @ me for the paypal@Ps_Funny @Nano_Jayy_Arr @Procall_ @VaZtCruDDy @JerKzTheGreaT @XanderTheaM @Sleepoz_"	http://twitter.com/_GhostTourneys/status/444973285105627136
+PayPal_General	NEUTRAL	N	N	neutral	"6$ 3v3 1nD @ 8:10est, Tweet me for the paypal OR look in my bio, lMK WEN SENTRT @ShawnAbner @RTGamers_"	http://twitter.com/_GhostTourneys/status/444979749375332352
+PayPal_General	NEUTRAL	N	N	neutral	"6$ 3v3 1nD @ 8:30est, Tweet me for the paypal OR look in my bio,  lMK WEN SENT RT @ShawnAbner @RTGamers_ 2 teams signed up, STARTS IN 30min"	http://twitter.com/_GhostTourneys/status/444984554726498304
+PayPal_General	NEUTRAL	N	N	neutral	"5$ 2v2 1nD @ 9:45est, Tweet me for the paypalRT @GamerRTs_ @RTGamers_"	http://twitter.com/_GhostTourneys/status/444999724479705088
+PayPal_General	NEUTRAL	N	N	neutral	"5$ 2v2 1nD @ 9est, Tweet me for the paypal RT this guysss! @WizKayy @TerM_HYPE @XPLiSiT_ @xDeemo_ @LJH_Trunks @GBYouuHaLL @GBNoX @RTGamers_"	http://twitter.com/_GhostTourneys/status/445351392568303616
+PayPal_General	NEUTRAL	N	N	neutral	"5$ 2v2 1nD @ 9est, Tweet me for the paypal RT this guysss! teams: 1RT @RTGamers_"	http://twitter.com/_GhostTourneys/status/445352644316389376
+PayPal_General	NEUTRAL	N	N	neutral	"5$ 2v2 1nD @ 9est, Tweet me for the paypal RT this guysss!1 team signed up"	http://twitter.com/_GhostTourneys/status/445353599166451712
+PayPal_General	NEUTRAL	N	N	neutral	5$ 2v2 1nD STARTS in 35min!tweet me for the paypal1 team signed upRT @RTGamers_ @ShawnAbner	http://twitter.com/_GhostTourneys/status/445354807306358784
+PayPal_General	NEUTRAL	N	N	neutral	"5$ 2v2 1nD in 30min @ me for the paypal, 3 teams @WizKayy @TerM_HYPE @XPLiSiT_ @xDeemo_ @LJH_Trunks @GBYouuHaLL @GBNoX @RTGamers_ @GODSMoReZ"	http://twitter.com/_GhostTourneys/status/445356799663697920
+PayPal_General	NEUTRAL	N	N	neutral	5$ 2v2 1nD STARTS in 30min! tweet me for the paypal  3 teams signed up  RT @RTGamers_	http://twitter.com/_GhostTourneys/status/445357197405331456
+PayPal_General	NEUTRAL	N	N	neutral	5$ 2v2 1nD STARTS in 25min! tweet me for the paypal 3 teams signed up RT @RTGamers_ @ShawnAbner - MIGHT EXTEND IF MORE KIDS WANNA JOIN	http://twitter.com/_GhostTourneys/status/445358218957430784
+PayPal_General	NEUTRAL	N	N	neutral	5$ 2v2 1nD STARTS in 25min! tweet me for the paypal **4 teams signed up** RT @RTGamers_ @ShawnAbner - MIGHT EXTEND IF MORE KIDS WANNA JOIN	http://twitter.com/_GhostTourneys/status/445358569207001088
+PayPal_General	NEUTRAL	N	N	neutral	@ShawarmaGuy @iStrategyy paypal - GhostTourneys@yahoo.com	http://twitter.com/_GhostTourneys/status/445358939169767424
+PayPal_General	NEUTRAL	N	N	neutral	"http://t.co/yd6ZDSJxUc5$ 2v2 1nD STARTS IN 15min, MIGHT EXTEND 10min IF teams come in5 teams signed up, @ me for paypalRT @RTGamers_"	http://twitter.com/_GhostTourneys/status/445360600277712896
+PayPal_General	NEUTRAL	N	N	neutral	"5$ 2v2 1nD in 45min!, Tweet me for the paypalRT @RTGamers_ @ShawnAbner"	http://twitter.com/_GhostTourneys/status/445379131887194112
+PayPal_General	NEUTRAL	N	N	neutral	"6$ 3v3 1nD @ 8:30est in 30min!, tweet me for the paypal!RT @RTGamers_"	http://twitter.com/_GhostTourneys/status/445390149052944384
+PayPal_General	NEUTRAL	N	N	neutral	"6$ 3v3 1nD @ 8:30est in 30min!, tweet me for the paypal! RT @RTGamers_ @BizoN714"	http://twitter.com/_GhostTourneys/status/445390867348475904
+PayPal_General	NEUTRAL	N	N	neutral	"6$ 3v3 1nD @ 12:15est, tweet me for the paypal! RT @RTGamers_"	http://twitter.com/_GhostTourneys/status/445400079973625856
+PayPal_General	NEUTRAL	N	N	neutral	"6$ 3v3 1nD @ 12est2 teams signed up, Tweet me for the paypalRT @RTGamers_"	http://twitter.com/_GhostTourneys/status/445402349180186624
+PayPal_General	NEUTRAL	N	N	neutral	5$ 2v2 1nD for 12:30est - NOT EXTENDING! Tweet me for the paypal!1 TEAM SIGNED UPrt @RTGamers_ @QuickestRT @EonRetweet @SatelliteEsport	http://twitter.com/_GhostTourneys/status/446490045411647489
+PayPal_General	NEUTRAL	N	N	neutral	5$ 3v3 1nD for 10est! SIGN UP NOW! Tweet me for the paypalRT @RTGamers_ @ArxB95	http://twitter.com/_GhostTourneys/status/446818545184161792
+PayPal_General	NEUTRAL	N	N	neutral	"5$ 3v3 1nD for 10est, Tweet me for the paypal!RT @ShawnAbner"	http://twitter.com/_GhostTourneys/status/446818909509795841
+PayPal_General	NEUTRAL	N	N	neutral	5$ 2v2 1nD @ 11est!2 teams signed up!@ me for the paypal!RT @RTGamers_	http://twitter.com/_GhostTourneys/status/446826631403806721
+PayPal_General	NEUTRAL	N	N	neutral	5$ 2v2 1nD in 40min! paypal - GhostTourneys@yahoo.com2 teams signed up!RT & TAG YOUR DUOOOOOOOOOOO@RTGamers_	http://twitter.com/_GhostTourneys/status/446831570461020160
+PayPal_General	NEUTRAL	N	N	neutral	RT @CrimsonTournies: 3$ 2v2 1nD @ 6:45 ! LETS GET 10+ TEAMS!!!@ me for the paypal!RT @RTGamers_ @JRazeDePhenom	http://twitter.com/_GhostTourneys/status/447492244124086272
+PayPal_General	NEUTRAL	N	N	neutral	RT @CoDG_AM_Tournys: 5$ 3v3 1nD STARTS @ 9est @ me for my paypal RT RT RT!!! @ShawnAbner	http://twitter.com/_GhostTourneys/status/448249631625850880
+PayPal_General	NEUTRAL	N	N	neutral	"RT @CoDG_AM_Tournys: 5$ 3v3 1nD for 9est @ me for my paypal, RT RT RT!!! @RTGamers_ @vQRetweets @QuickestRT 1 team signed up"	http://twitter.com/_GhostTourneys/status/448251134780518400
+PayPal_General	NEUTRAL	N	N	neutral	6$ 3v3 1nD @ 9:30est! @ me for the paypal RT RT RT! @iNS_Benzii @TTinyy_ @RTGamers_2 teams signed up!	http://twitter.com/_GhostTourneys/status/448260236248227841
+PayPal_General	NEUTRAL	N	N	neutral	6$ 3v3 1nD @ 9:30est!paypal - ghosttourneys@yahoo.com2 teams signed up!RT @Trruthh_ @Cali_Gamers	http://twitter.com/_GhostTourneys/status/448261533148000256
+PayPal_General	NEUTRAL	N	N	neutral	6$ 3v3 1nD @ 9:30est! @ me for the paypal RT RT RT! @TTinyy_ @RTGamers_ 2 teams signed up!	http://twitter.com/_GhostTourneys/status/448261861830426625
+PayPal_General	NEUTRAL	N	N	neutral	6$ 3v3 1nD STARTS @ 9:30est! paypal - ghosttourneys@yahoo.com 2 teams signed up! RT @Trruthh_ @Cali_Gamers	http://twitter.com/_GhostTourneys/status/448263469863665664
+PayPal_General	NEUTRAL	N	N	neutral	6$ 3v3 1nD @ 9:30est! STARTS IN 20MIN!!!!!!!!!!!!!!!paypal - ghosttourneys@yahoo.com 3 teams signed up! RT @Trruthh_ @Cali_Gamers	http://twitter.com/_GhostTourneys/status/448265080929415168
+PayPal_General	NEUTRAL	N	N	neutral	6$ 3v3 1nD EXTENDING TILL 940est@ me for the paypal!3 teams signed up! NEED 2 MORE TEAMS! RT @Trruthh_ @Cali_Gamers @RTGamers_	http://twitter.com/_GhostTourneys/status/448267357668909058
+PayPal_General	NEUTRAL	N	N	neutral	6$ 3v3 1nD EXTENDING TILL 940est @ me for the paypal! 3 teams signed up! NEED 2 MORE TEAMS!  RT @Trruthh_ @Cali_Gamers @RTGamers_	http://twitter.com/_GhostTourneys/status/448270081244401665
+PayPal_General	NEUTRAL	N	N	neutral	6$ 3v3 1nD @ 945est @ me for the paypal! 3 teams signed up! NEED 2 MORE TEAMS!  RT @Trruthh_ @Cali_Gamers @RTGamers_	http://twitter.com/_GhostTourneys/status/448271220425777152
+PayPal_General	NEUTRAL	N	N	neutral	5$ 2v2 1nD @ 10:30est! SIGN UP NOW NOT LATER PLS@ me for my paypal & RT THIS TWEEET!@Cali_Gamers @RTGamers_ @vQRetweets	http://twitter.com/_GhostTourneys/status/448273145087025152
+PayPal_General	NEUTRAL	N	N	neutral	5$ 2v2 1nD @ 10:40est! SIGN UP NOW NOT LATER PLS @ me for my paypal & RT THIS TWEEET! @Cali_Gamers @RTGamers_ @vQRetweets 2 teams in it	http://twitter.com/_GhostTourneys/status/448278988406804480
+PayPal_General	NEUTRAL	N	N	neutral	5$ 2v2 1nD @ 10:40est! SIGN UP NOW NOT LATER PLS  @ me for my paypal & RT THIS TWEEET! @Cali_Gamers @RTGamers_ @vQRetweets   3 teams in it	http://twitter.com/_GhostTourneys/status/448280541670805504
+PayPal_General	NEUTRAL	N	N	neutral	5$ 2v2 1nD @ 10:45est! @ me for my paypal & RT THIS TWEEET! @Cali_Gamers @RTGamers_ @vQRetweets    3 teams in it SIGN UP NOW!	http://twitter.com/_GhostTourneys/status/448281796967284736
+PayPal_General	NEUTRAL	N	N	neutral	@USA_Tournies we won paypal is ghosttourneys@yahoo.com	http://twitter.com/_GhostTourneys/status/448314377842614273
+PayPal_General	NEUTRAL	N	N	neutral	RT @ReflexTourney: 2v2 1nD  $4entry  starts at 6+ teams PayPal in BIO  GT's in payment	http://twitter.com/_GhostTourneys/status/448324454028812288
+PayPal_General	NEUTRAL	N	N	neutral	"8$ 3v3 bo3 STARTS in 30min, @ me for the paypal3 teams signed upRT!!!!!!! @GBYouuHaLL"	http://twitter.com/_GhostTourneys/status/448626377818775552
+PayPal_General	NEUTRAL	N	N	neutral	"8$ 3v3 bo3 STARTS in 20min, @ me for the paypal 4 teams signed up RT!!!!!!! @GBYouuHaLL MIGHT EXTEND TILL :45 to get more teams"	http://twitter.com/_GhostTourneys/status/448627883745886208
+PayPal_General	NEUTRAL	N	N	neutral	5$ 3v3 1nD STARTS IN 45min@ me for the paypal & RT if your signing upIF WE GET 10+ TEAM IT'LL BE 100% PAYOUT!RT@RTGamers_ @vQRetweets	http://twitter.com/_GhostTourneys/status/449017709942951937
+PayPal_General	NEUTRAL	N	N	neutral	(X1 & 360)5$ 3v3 1nD in 40min PAYPAL IS IN BIO *COPY & PASTE IT @RTGamers_ @vQRetweets  3 teams in it for the 360 2 teams in it for the X1	http://twitter.com/_GhostTourneys/status/449022940705595392
+PayPal_General	NEUTRAL	N	N	neutral	(X1 & 360)5$ 3v3 1nD in 25min PAYPAL IS IN BIO *COPY & PASTE IT @RTGamers_ @vQRetweets  3 teams in it for the 360  3 teams in it for the X1	http://twitter.com/_GhostTourneys/status/449027141313646592
+PayPal_General	NEGATIVE	N	N	neutral	omg my paypal just got limited again... EVERYONE THAT PAID FOR THE X1 or 360 3v3 1nD DISPUTE THE PAYMENT NOW SO I CAN REFUND YOU SORRY! :(	http://twitter.com/_GhostTourneys/status/449041549221847040
+PayPal_General	NEUTRAL	N	N	neutral	"@VeloComuhdy if i fruaded i wud of deleted my twitter obvi, i just got a call saying someone is trying to hack my paypal"	http://twitter.com/_GhostTourneys/status/449041998511497217
+PayPal_General	NEUTRAL	N	N	neutral	"@GB_MaKo if i fruaded i wud of deleted my twitter obvi, i just got a call saying someone is trying to hack my paypal"	http://twitter.com/_GhostTourneys/status/449042038906830848
+PayPal_General	NEUTRAL	N	N	neutral	RT @iCollectNudes: IF SEAHAWKS LOSE ILL PAYPAL EVERYONE THAT RETWEETS THIS $50 NOT PLAYIN B http://t.co/Ijan2IAxid	http://twitter.com/_Gift2the_90z/status/430144384995041280
+PayPal_General	NEUTRAL	N	N	neutral	Who doesn't know what PayPal is. Like really????????!!!!!!!?	http://twitter.com/_GiGi323/status/436995397740158977
+PayPal_General	NEGATIVE	N	Y	negative	I actually have a problem with online shopping since I got a paypal account.  1 click and my money's gone _Ÿ˜ê_Ÿ˜ê	http://twitter.com/_ginax/status/433604517343793152
+PayPal_General	NEUTRAL	N	N	neutral	RT @iCollectNudes: IF SEAHAWKS LOSE ILL PAYPAL EVERYONE THAT RETWEETS THIS $50 NOT PLAYIN B http://t.co/Ijan2IAxid	http://twitter.com/_GingerBreadBoy/status/430136936519729152
+PayPal_General	POSITIVE	N	N	neutral	RT @NickHamelinMLB: If you like Baseball Cards check out this For Sale & Trade video! RTs are appreciated! I will have PayPal on Monday httâ€_	http://twitter.com/_GiNgErz_SnApPz/status/440002930788143105
+PayPal_General	NEUTRAL	N	Y	negative	Paypal merchant buttons refusing to work - aargh!	http://twitter.com/_GinnyCarter/status/444450323122647040
+Google_Wallet	POSITIVE				@argvK :D How about Google Wallet forced down our throats like the whole Youtube-G+ thing?	http://twitter.com/_girishenoy/status/445244760840630272
+PayPal_General	NEUTRAL	N	Y	negative	i need to deactivate my paypal account.	http://twitter.com/_girlDom/status/433748206204518400
+PayPal_General	POSITIVE	N	N	neutral	RT @AVIATEB1A4: {â™¥} #B1A4's 3rd anniversary project [B1A4 FOREST] eng notice: http://t.co/8zgkbWTnBn [paypal acc: b1a4forest@gmail.com] (viâ€_	http://twitter.com/_gise960417/status/445761271921516545
+PayPal_General	NEUTRAL	N	N	neutral	RT @1YoungTrey: I Need Some More Money In My @PayPal Account . . .	http://twitter.com/_GIZZOJACKPOT/status/444257724948561920
+PayPal_General	NEUTRAL	N	N	neutral	@ThomasB_lll Paypal it to me so I know it's real. _Ÿ˜‚	http://twitter.com/_GlamorlushLife/status/438884097700528129
+PayPal_General	POSITIVE	N	Y	negative	@IgnoreAllLaws Lmfao now I gotta make a paypal and shit	http://twitter.com/_glogurl/status/435274678815297537

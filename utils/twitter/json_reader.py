@@ -41,7 +41,7 @@ def parse(line):
 			elif(sentiment=='NEGATIVE'):
 				sent_text='0\t1\t0'
 			
-			return tid,user,date,text,sent_text
+			return tid,user,date,text,sentiment
 			#return date,proc_text 
 			#yield user,date,1
 

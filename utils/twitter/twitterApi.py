@@ -1,15 +1,6 @@
 from twython import Twython, TwythonError
 import json
 import random,time
-
-########################
-# TODO load from file (vamshi's credentials)
-APP_KEY="bvEWrms8IIFGPBuswVjlA"
-APP_SECRET="Gg8QT2lK2dgUeUkQd32dowVj30vS16BgA6tMmuBkWC4"
-OAUTH_TOKEN="501009734-eU8JUKpWl2cy51TXEfegvqMayH2nPsMQZXdIj2iB"
-OAUTH_TOKEN_SECRET="oMZq0oag5HS7sbcSc6WZ99Fgqgj36CHxcmN5tkV8"
-########################
-
 import ConfigParser
 
 
@@ -18,18 +9,18 @@ def login(conf):
 	config = ConfigParser.RawConfigParser()
 	config.read(conf)
 	
-	CONSUMER_KEY = config.get('oauth','CONSUMER_KEY')
-	CONSUMER_SECRET = config.get('oauth','CONSUMER_SECRET')
-	ACCESS_TOKEN = config.get('oauth','ACCESS_TOKEN')
-	ACCESS_TOKEN_SECRET = config.get('oauth','ACCESS_TOKEN_SECRET')
+	CONSUMER_KEY = config.get('twitter','CONSUMER_KEY')
+	CONSUMER_SECRET = config.get('twitter','CONSUMER_SECRET')
+	ACCESS_TOKEN = config.get('twitter','ACCESS_TOKEN')
+	ACCESS_TOKEN_SECRET = config.get('twitter','ACCESS_TOKEN_SECRET')
 	
 	twitter = Twython(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 	
-	return twitter 	
+	return twitter
 
-def getUserTimeline(user):
+def getUserTimeline(api,user):
 	try:
-	    user_timeline = twitter.get_user_timeline(screen_name=user)
+	    user_timeline = api.get_user_timeline(screen_name=user)
 	except TwythonError as e:
 	    print e
 
@@ -37,10 +28,10 @@ def getUserTimeline(user):
 	    print json.dumps (tweet)
 
 ########################
-def getSearchResults(text='paypal'):
+def getSearchResults(api,text='paypal'):
 
 	try:
-	    search_results = twitter.search(q=text, count=150)
+	    search_results = api.search(q=text, count=3000)
 	except TwythonError as e:
 	    print e
 
@@ -53,9 +44,9 @@ def getSearchResults(text='paypal'):
 ###################
 # TODO 
 # API Limits and workarounds
-FRIENDS_MAX = 20
+FRIENDS_MAX = 5000
 TOTAL_REQUESTS = 0
-STATUSES_MAX = 100
+STATUSES_MAX = 5000
 #############
 
 def getStatuses(api,id=None,statusLimit = STATUSES_MAX ):
@@ -72,6 +63,7 @@ def getStatuses(api,id=None,statusLimit = STATUSES_MAX ):
 	statusFlag = True
 	statusList = []
 	screenName = None
+	statuses = None
 	while statusFlag:
 		for i in range(5):
 			try:
@@ -81,9 +73,10 @@ def getStatuses(api,id=None,statusLimit = STATUSES_MAX ):
 			except:
 				print " FAILED user " + str(id) + ", retrying"
 			time.sleep(4)
-			
-		if len(statuses) > 0 and len(statusList) < statusLimit:
-			tempList = [(status.GetId(),status.GetUser().GetScreenName(),status.GetCreatedAt(),status.GetRelativeCreatedAt(), status.GetInReplyToScreenName(), status.GetFavorited(), status.GetText()) for status in statuses]
+		
+		if statuses!=None and len(statuses) > 0 and len(statusList) < statusLimit:
+			#tempList = [(status.GetId(),status.GetUser().GetScreenName(),status.GetCreatedAt(),status.GetRelativeCreatedAt(), status.GetInReplyToScreenName(), status.GetFavorited(), status.GetText()) for status in statuses]
+			tempList = [s for status in statuses]
 			statusList.extend(tempList)
 			if len(statusList) > statusLimit:
 				statusFlag = False
@@ -119,9 +112,12 @@ def getFriendsInfo(api,usersList,numberOfFriends=FRIENDS_MAX):
 	return friends
 		
 # global : move to a class ?
-twitter = None
 	
 if __name__ == '__main__':
-	twitter = login('vambati.properties')
-	getUserTimeline("vambati")
-	getSearchResults("india")
+	twitterapi = None
+	twitterapi = login('vambati.properties')
+	#getUserTimeline(twitterapi,"paypal")
+	#getSearchResults(twitterapi,"paypal")
+	sarr = getStatuses(twitterapi,"paypal")
+	json.dumps(sarr)
+	

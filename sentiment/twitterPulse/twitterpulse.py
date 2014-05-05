@@ -27,8 +27,8 @@ def scoreStream(term):
 
     fig = plt.figure()
     plt.axis([startTime-500, startTime+100, -15, 15])
-    plt.title(filterString)
-    fig.canvas.set_window_title(filterString)
+    plt.title('x')
+    fig.canvas.set_window_title('y')
     plt.xlabel('Time')
     plt.ylabel('Sentiment')
     plt.ion()
@@ -43,8 +43,9 @@ def scoreStream(term):
     minAve = 0
     maCount = 0
     testTime = startTime
-
-    for line in response:
+	
+    f = open(sys.argv[1])
+    for line in f:
         n = json.loads(line)
 
         if "text" in n:
@@ -76,7 +77,8 @@ def scoreStream(term):
 
                     score += float(moodScores[og])
 
-            score += numGood - numBad + rt + 0.5*fv
+            #score += numGood - numBad + rt + 0.5*fv
+            score += numGood - numBad
             
             tTime = calendar.timegm(datetime.datetime.utcnow().utctimetuple())
             x.append(tTime)
