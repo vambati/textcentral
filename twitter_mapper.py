@@ -46,7 +46,7 @@ if __name__ == "__main__":
 	
 	for line in data:
 		# Modify json_reader.py to change what is packed here ! 
-		(tid,topic,date,text,sentiment,user,gender,influence_score,followers) = line
+		(tid,topic,date,text,sentiment,user,gender,ctry,influence_score,followers) = line
 		
 		# some processing
 		text = stringutils.clean_utf(text)
@@ -58,7 +58,7 @@ if __name__ == "__main__":
 		date = date.split('T')[0]
 
 		# Print output 
-		out = tid+"\t"+date+"\t"+topic+"\t"+proc_text+"\t"+sentiment+"\t"+str(spam_flag)+"\t"+user+"\t"+gender+"\t"+"\t"+influence_score+"\t"+followers
+		out = tid+"\t"+date+"\t"+topic+"\t"+proc_text+"\t"+sentiment+"\t"+str(spam_flag)+"\t"+user+"\t"+gender+"\t"+ctry+"\t"+influence_score+"\t"+followers
 		out = out.encode('utf-8')
 		print out
 
