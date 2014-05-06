@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
 ####
-# Vamshi - 16 June 2012 
 # Trying out the algorithms for sentiment analysis 
 #####
 
