@@ -9,11 +9,12 @@ import dateutil.parser
 
 from textcentral.utils import stringutils
 from textcentral.spam.spammodel import SpamModel
-from textcentral.utils.twitter import json_reader
+
+import attensity_reader
 
 def read_input(file):
     for line in file:
-		pline = json_reader.parse(line)
+		pline = attensity_reader.parse(line)
 		
 		if(pline!=None):
 			yield pline
@@ -45,7 +46,7 @@ if __name__ == "__main__":
 	
 	for line in data:
 		# Modify json_reader.py to change what is packed here ! 
-		(tid,user,date,text,sent_text) = line
+		(tid,topic,date,text,sentiment,user,gender,influence_score,followers) = line
 		
 		# some processing
 		text = stringutils.clean_utf(text)
@@ -56,7 +57,8 @@ if __name__ == "__main__":
 
 		date = date.split('T')[0]
 
-		out = tid+"\t"+date+"\t"+user+"\t"+text+"\t"+str(spam_flag)+"\t"+proc_text
+		# Print output 
+		out = tid+"\t"+date+"\t"+topic+"\t"+proc_text+"\t"+sentiment+"\t"+str(spam_flag)+"\t"+user+"\t"+gender+"\t"+"\t"+influence_score+"\t"+followers
 		out = out.encode('utf-8')
 		print out
 

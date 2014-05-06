@@ -101,7 +101,7 @@ class SpamModel:
 
 		self.vectorizer = None
 		min_n = 1 
-		max_n = 3
+		max_n = 2
  
 		# Extract training features 
 		print ("Extracting features from the training dataset using a sparse vectorizer")
@@ -115,15 +115,14 @@ class SpamModel:
 				
 		print "Feature generation: n_samples: %d, n_features: %d" % X_train.shape
 	
-		# 10 percent reduction in feature size 
-		SELECT_K_FEATURES=X_train.shape[1] / 5;
+		# Feature Selection - 10 percent reduction in feature size 
+		#SELECT_K_FEATURES=X_train.shape[1] / 5;
 		
-		print("Extracting %d best features by a chi-squared test")
-		ch2 = SelectKBest(chi2, SELECT_K_FEATURES)
-		X_train = ch2.fit_transform(X_train, y_train)
-		print "Feature selection: n_samples: %d, n_features: %d" % X_train.shape
+		#print("Extracting %d best features by a chi-squared test")
+		#ch2 = SelectKBest(chi2, SELECT_K_FEATURES)
+		#X_train = ch2.fit_transform(X_train, y_train)
+		#print "Feature selection: n_samples: %d, n_features: %d" % X_train.shape
 	 
-
 		# Arra-ize 
 		X_train = X_train.toarray()
 		y_train = np.array(y_train)

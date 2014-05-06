@@ -47,7 +47,7 @@ if __name__ == "__main__":
 	data = read_input(sys.stdin)
 	
 	for line in data:
-                (tid,user,date,text,sent_text) = line
+		(tid,user,date,text,sent_text) = line 
 
 		# Date is the second element, make sure that is the case ! 
 		d1 = dateutil.parser.parse(date)
