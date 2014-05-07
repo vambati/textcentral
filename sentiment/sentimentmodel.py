@@ -1,9 +1,4 @@
 #!/usr/bin/env python
-from __future__ import division
-
-from itertools import groupby
-from operator import itemgetter
-import sys
 
 ###############
 # import stopwords file
@@ -26,10 +21,15 @@ import csv
 import sys
 import operator
 
+import collections
+
 # Text proc 
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer, TfidfVectorizer 
 from sklearn.feature_selection import SelectKBest, chi2
+
+import sys 
+import sklearn.metrics as metrics
 
 from sklearn import svm
 from sklearn.feature_selection import SelectKBest, chi2
@@ -47,7 +47,118 @@ from sklearn.metrics import *
 from sklearn.cross_validation import StratifiedKFold
 from sklearn import preprocessing 
 
-class SpamModel:
+##################################################
+# Base Class 
+
+class SentimentModel:
+
+	# TODO : Will be extended 
+	def scoreSentiment(self,s):
+		return -1
+			
+	def evaluateFile(self,evalFile):
+		f = open(evalFile,"r")
+		truth=[]
+		pred=[]
+		s = f.readline()
+
+		for s in f:
+			(tag,tweet) = s.split('\t')
+	 	
+			# Load truth
+			if(tag=='mixed' or tag=='neutral'):
+		 		asent = 2
+			elif(tag=='positive'):
+				asent = 1
+			elif(tag=='negative'):
+				asent = 0
+			elif(isinstance(tag,int)):
+				asent = tag
+		
+		 	truth.append(asent)
+		
+			# Load predicted 
+			p = self.scoreSentiment(tweet)
+			pred.append(p)
+	
+	
+		print "Accuracy:"
+		print metrics.accuracy_score(truth,pred)
+
+		print "F1 Score:"
+		print metrics.f1_score(truth,pred)
+
+		print "Precision Score:"
+		print metrics.precision_score(truth,pred)
+
+		print "Recall Score:"
+		print metrics.recall_score(truth,pred)
+
+		print "Confusion Matrix:"
+		print metrics.confusion_matrix(truth,pred)
+
+		print "Report"
+		print metrics.classification_report(truth,pred)
+		
+		
+##################################################
+# 1. Log Probability Lexicon based approach 		
+
+class LogProbSentimentModel(SentimentModel):
+	def __init__(self, lexicon=None):
+
+		# Machine learning variables 
+		self.lexicon = lexicon
+		
+		# Multi-Dimensional dictionary
+		# TODO 
+		#self.log_probs = collections.defaultdict(list)
+		
+		self.hlog_probs = {}
+		self.slog_probs = {}
+
+		
+		if(self.lexicon!=None):
+			self.loadProbLexicon()
+	
+	def scoreSentiment(self,s):
+
+		words = stringutils.tokenize_twitter(s)
+		
+	    # Get the log-probability of each word under each sentiment
+		happy_probs = [self.hlog_probs[word]  for word in words if word in self.hlog_probs]
+		sad_probs =   [self.slog_probs[word]  for word in words if word in self.slog_probs]
+
+	    # Sum all the log-probabilities for each sentiment to get a log-probability for the whole tweet
+		tweet_happy_log_prob = np.sum(happy_probs)
+		tweet_sad_log_prob = np.sum(sad_probs)
+
+	    # Calculate the probability of the tweet belonging to each sentiment
+		prob_happy = np.reciprocal(np.exp(tweet_sad_log_prob - tweet_happy_log_prob) + 1)
+		prob_sad = 1 - prob_happy
+
+		if(prob_happy>0.95):
+			return 1 # Positive
+		if(prob_sad >0.95):
+			return 0 # Negative
+		else:
+			return 2 # Neutral
+
+	
+	def loadProbLexicon(self):
+	    print "Loading lexicon from ",self.lexicon
+	    myfile = open(self.lexicon, 'r')
+	    myfile.readline() #Ignore title row
+
+	    for line in myfile:
+			tokens = line[:-1].split(',')
+			self.hlog_probs[tokens[0]]= float(tokens[1])
+			self.slog_probs[tokens[0]]= float(tokens[2])
+
+
+##################################################
+	
+class TFIDFSentimentModel(SentimentModel):
 	def __init__(self, trainFile=None):
 
 		# Machine learning variables 
@@ -62,11 +173,11 @@ class SpamModel:
 
 			# Setup machine learning  
 			# 1. Stochastic gradient descent 
-			self.classifier = SGDClassifier(alpha=0.0001, class_weight=None, eta0=0.0,fit_intercept=True,learning_rate='optimal', loss='log', n_iter=5, n_jobs=1,penalty='l2', power_t=0.5, rho=0.85, seed=0, shuffle=False,verbose=0, warm_start=False)
+			#self.classifier = SGDClassifier(alpha=0.0001, class_weight=None, eta0=0.0,fit_intercept=True,learning_rate='optimal', loss='log', n_iter=5, n_jobs=1,penalty='l2', power_t=0.5, rho=0.85, seed=0, shuffle=False,verbose=0, warm_start=False)
 
 			#self.classifier = SGDClassifier(loss="log", penalty="l2")
 			#self.classifier = LogisticRegression(C=1.0, penalty='l2')
-			#self.classifier = MultinomialNB()
+			self.classifier = MultinomialNB()
 			#self.classifier = RandomForestClassifier()
 			#self.classifier = KNeighborsClassifier()
 			#self.classifier = svm.SVC()
@@ -76,8 +187,9 @@ class SpamModel:
 		
 		else:
 			print ('Error: Nothing to train')
-	
-	def read_text_file(self,delim):
+
+	# 2. Training lexicon (TFIDF) approach
+	def loadTrainFile(self,delim):
 		f = open(self.trainFile, "r")
 		ylabels = []
 		tsvData = []
@@ -88,8 +200,12 @@ class SpamModel:
 			line =  stringutils.normalize_twitter(line) 
 
 			label = 0
-			if(tag=='Y'):
+			if(tag=='neutral'):
+				label = 2
+			elif(tag=='positive'):
 				label = 1
+			elif(isinstance(tag,int)):
+				label = tag
  		
 			ylabels.append(label)
 			tsvData.append(line)
@@ -97,7 +213,7 @@ class SpamModel:
 		return tsvData,ylabels
 
 	def trainClassifier(self):
-		(X_train,y_train) = self.read_text_file("\t")
+		(X_train,y_train) = self.loadTrainFile("\t")
 
 		self.vectorizer = None
 		min_n = 1 
@@ -135,14 +251,14 @@ class SpamModel:
 		print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2)) 
 
 		# Print top features 
-		feature_names = np.asarray(self.vectorizer.get_feature_names())
-		print "Top 25 features for each class:"
-		for i in range(0,1):
-			top10 = np.argsort(self.classifier.coef_[i])[-100:]
-			print i,"\n".join(feature_names[top10]) 
+		#feature_names = np.asarray(self.vectorizer.get_feature_names())
+		#print "Top 25 features for each class:"
+		#for i in range(0,2):
+		#	top10 = np.argsort(self.classifier.coef_[i])[-50:]
+		#	print i,"\n".join(feature_names[top10]) 
 
 
-	def score(self,sen):
+	def scoreSentiment(self,sen):
 	 	test = []
 		sen = stringutils.clean_utf(sen)
 		test.append(sen)
@@ -155,27 +271,36 @@ class SpamModel:
 		pred = self.classifier.predict(X_test)
 		probas = self.classifier.predict_proba(X_test)
  
- 		# Labels (0 - Spam ; 1- Not Spam)
-		# Labels (0 - Not Relevant ; 1- Relevant)
-		label = 1	
+		# Labels (0 - Negative; 1- Positive; 2-Neutral)
+		label = 1
 		if (probas[0][0] > probas[0][1]):
 			label = 0
+		elif()
   
 		#print label,"\t",probas[0][0],"\t",sen
 		return label
 
- 
 ###############################################################################
+
 # Testing 
 if __name__ == '__main__':
 	
      samples = (
-         u"RT @ #happyfuncoding: this is a typical Twitter tweet @test :-)",
+         u"RT @ #happyfuncoding: this is a typical Twitter tweet @test i love it :-)",
          u"HTML entities &amp; other Web oddities can be an &aacute;cute <em class='grumpy'>pain</em> >:(",
          u"It's perhaps http://twitter.com noteworthy @gmail or vambati@gmail.com that phone numbers like +1 (800) 123-4567, (800) 123-4567, and 123, 4567 are treated as words despite their whitespace."
          )
-     spam_classifier = SpamModel(trainFile=sys.argv[1])
+
+     sent_classifier = TFIDFSentimentModel(trainFile=sys.argv[1])
+     
+     #sent_classifier = LogProbSentimentModel(lexicon=sys.argv[1])
+	 
      for s in samples:
          print "======================================================================"
-         print s,spam_classifier.score(s)
+         print s,sent_classifier.scoreSentiment(s)
   
+  
+      # Evaluate on a larger file
+     if(len(sys.argv)>2):
+        sent_classifier.evaluateFile(sys.argv[2])
+	  

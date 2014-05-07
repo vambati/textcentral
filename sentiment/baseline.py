@@ -31,7 +31,7 @@ def classifySentiment(words, happy_log_probs, sad_log_probs):
 
 def main():
     # We load in the list of words and their log probabilities
-    happy_log_probs, sad_log_probs = readSentimentList('/Users/vambati/DataScience/sentimentanalysis/resources/twitter/twitter_sentiment_list.csv')
+    happy_log_probs, sad_log_probs = readSentimentList('resources/twitter/twitter_sentiment_list.csv')
 
     # Here we have tweets which we have already tokenized (turned into an array of words)
 
