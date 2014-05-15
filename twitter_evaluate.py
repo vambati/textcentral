@@ -6,13 +6,15 @@ f = open(sys.argv[1])
 human=[]
 atten=[]
 
+# Skip header 
 s = f.readline()
 
+# Evaluate rest 
 for s in f:
 	s = s.lower()
-	(topic,asent,spam,rel,hsent,text,handle) = s.split('\t')
+ 	(topic,asent,spam,rel,hsent,text,handle) = s.split('\t')
 	
-	if(asent == None):
+	if(asent == ''):
 		pass
 		
 	human.append(hsent)

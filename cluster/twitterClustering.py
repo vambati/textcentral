@@ -1,20 +1,7 @@
-#!/usr/bin/env python
-# -*- coding: iso-8859-15 -*-
-"""
-twitterClustering.py
-
-Created by Marcel Caraciolo on 2010-01-06.
-e-mail: caraciol (at) gmail.com   twitter: marcelcaraciolo
-Copyright (c) 2009 Federal University of Pernambuco. All rights reserved.
-"""
-
+#!/usr/bin/env python 
 
 '''Simple algorithm in order to cluster the twitter data'''
-
-__author__ = 'caraciol@gmail.com'
-__version__ = '0.1'
-
-
+ 
 """
 Algoritm Steps
 1 - Get my user data (only statuses - 100 last) ok 
@@ -34,18 +21,6 @@ import string
 import pickle
 from math import sqrt
 from PIL import Image,ImageDraw
-
-SCREENNAME = "username"
-PASSWORD = "password"
-
-
-SCREENNAME2 = 'babaovo'
-PASSWORD2 = 'br09yg25'
-
-
-FRIENDS_MAX = 100
-STATUSES_MAX = 100
-
 
 
 def getHeight(clust):
@@ -202,28 +177,7 @@ def printclust(clust,labels=None,n=0):
 
 #Parse the statuses and returns the list of words for each text
 def getWords(text):
-	#Create the stop words list
-	stopwords_pt = nltk.corpus.stopwords.words('portuguese')
-	stopwords_pt = map(lambda w: unicode(w, 'utf-8'), stopwords_pt)
-	stopwords_en = nltk.corpus.stopwords.words('english')
-	stopwords_en = map(lambda w: unicode(w, 'utf-8'), stopwords_en)
-	
-	#Split the words by spaces
-	words = text.split(" ")
-	
-	#Remove all illegal characters and convert to lower case
-	RemoveWords = string.punctuation
-	for item in RemoveWords:
-		words = [word.replace(item,'') for word in words]
-	words = filter(lambda word: not word.isdigit(), words)
-	words = [word.replace("RT",'') for word in words]
-	words = filter(lambda word: not word.startswith('http'),words)
-	words = filter(lambda word: word != '', words)
-	words = [word.lower() for word in words]
-	words = filter(lambda word: not word in stopwords_en, words)
-	words = filter(lambda word: not word in stopwords_pt, words)
-	
-	return words
+	return stringutils.twitter_tokenize(text)
 
 
 # Returns the screenname and dictionary of word counts for an twitter user
@@ -251,46 +205,11 @@ def getWordCounts(api,user,statusLimit):
 #Step 01: Getting the Twitter Data
 
 #Get My Twitter ID
-api = twitterT.Api(username=SCREENNAME, password=PASSWORD)
-TOTAL_REQUESTS+=1
-user = api.GetUser('marcelcaraciolo')
-TOTAL_REQUESTS+=1
-
+ 
 #Get My Friends IDs (only to 5000 friends)
-usersIDList = api.GetFriendsIds('marcelcaraciolo')
-
-random.shuffle(usersIDList)
-usersIDList = usersIDList[0:FRIENDS_MAX]
-
-usersIDList.extend([user.GetId()])
-
-print "Loaded users. Total: %s" % str(len(usersIDList))
-
+ 
 #Get all statuses of the users and dump into a temp file
-output = open('usersData.pk1','wb')
-
-wordCounts = {}
-apCount = {}
-
-for user in usersIDList:
-	try:
-		screenName,wc = getWordCounts(api,user,STATUSES_MAX)
-		wordCounts[screenName] = wc
-		print screenName + ' OK!'
-		for word, count in wc.items():
-			apCount.setdefault(word,0)
-			if count > 1:
-				apCount[word]+=1	
-	except:
-		print 'Failed to parse the user %s' % user
-		api = twitterT.Api(username=SCREENNAME2,password=PASSWORD2)
-
-#Dump the data into the output file
-pickle.dump(wordCounts,output)
-pickle.dump(apCount,output)
-output.close()
-
-
+ 
 #Step 02: Running the Clustering Algorithm
 
 inputF = open('usersData.pk1','rb')

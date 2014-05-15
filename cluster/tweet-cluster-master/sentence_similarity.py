@@ -8,30 +8,19 @@ from nltk.corpus import stopwords
 from nltk.stem import porter
 from nltk.tokenize import word_tokenize, wordpunct_tokenize, sent_tokenize
 
-import ttp
+from textcentral.utils import stringutils 
 
 from decorators import memoized
 
 stops = [stop.lower() for stop in stopwords.words('english')]
 stemmer = porter.PorterStemmer()
-parser = ttp.Parser()
-
+ 
 def simple_tokenify(s):
     return set([t.lower() for t in s.split()])
 
 def tokenify(s):
-    # Leave Twitter entities intact
-    res = parser.parse(s)
-    entity_types = (('@', 'lists'), ('#', 'tags'), ('', 'urls'), ('@', 'users'))
-    entities = []
-    for prefix, entity_type in entity_types:
-        entities.extend([prefix + entity for entity in getattr(res, entity_type)])
-
-    # Remove all Twitter entities from s
-    for entity in entities:
-        s = s.replace(entity, "")
-
-    return [t.lower() for t in wordpunct_tokenize(s) if t not in stops] + [entity for entity in entities if not entity.startswith("@")]
+	return stringutils.tokenize_twitter(s)
+ 
 
 def stemify(s):
     return [stemmer.stem(t) for t in s]

@@ -2,7 +2,6 @@ Company	Sentiment	spam	Relevant	Sentiment	Subject	Handle
 PayPal_General	NEUTRAL	Y	N	neutral	-     DJ PAYPAL - WHY                 http://t.co/8sddC05h4k     -	http://twitter.com/4kosgi/status/448199045417164800
 PayPal_General	NEUTRAL	N	Y	neutral	"' #AbcNews ' EBay Responds to Icahn, Says Sticking With PayPal: EBay responds to Icahn's letter, ... http://t.co/2AKdCGNBgL ' #AbcNews '"	http://twitter.com/1JonathanPerez/status/437963569976459264
 PayPal_General	NEUTRAL	N	Y	negative	" #PayPal feels the threat from Apple‰Ûªs mobile payment plans, says it ‰Û÷wants to help‰Ûª #tech #apple http://t.co/FvXeJ4m7Wm"	http://twitter.com/MOHIT881923/status/429911680856764416
-						
 PayPal_General	NEUTRAL	N	Y	positive	@bharat_builder @Vidyut Atleast paypal provides protection to both buyer and seller unlike banks in india.	http://twitter.com/_______prashant/status/439120289629077504
 PayPal_General	NEUTRAL	N	Y	negative	"@bharat_builder @Vidyut But paypal can be used for money laundering very easily , thats y there is immediate transfer condition for india"	http://twitter.com/_______prashant/status/439123879307804673
 PayPal_General	NEUTRAL	N	Y	neutral	@circletine but also websites that only accept PayPal when ur trying to use a gift card	http://twitter.com/_________shamus/status/433123509037170688

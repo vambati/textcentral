@@ -7,12 +7,14 @@ import random
 import pdb
 
 try:
-    import json
-except ImportError:
     import simplejson as json
+except ImportError:
+    import json
 
 from sentence_similarity import sentence_similarity, stemify, tokenify
 from clusters import scaledown, draw2d
+
+from textcentral import attensity_reader
 
 def distances(documents, distance_fn=sentence_similarity):
     # Progress indicator
@@ -50,26 +52,32 @@ def distances(documents, distance_fn=sentence_similarity):
 
     return matrix
 
-def visualize(tweets, jpeg="tweets.jpg"):
-    ids = [tweet["id_str"] for tweet in tweets]
-    texts = [tweet["text"] for tweet in tweets]
+def visualize(tFile, jpeg="tweets.jpg"):
+	
+	f = open(tFile)
+	ids = []
+	texts = []
+	for line in f:
+		pline = attensity_reader.parse(line)
+		if(pline != None):
+			(tid,topic,date,text,sentiment,user,gender,ctry,influence_score,followers) = pline
+			ids.append(tid)
+			texts.append(text)
+		
+	matrix = distances(texts)
+	coords = scaledown(matrix)
 
-    matrix = distances(texts)
-
-    coords = scaledown(matrix)
-
-    # draw2d(coords, ids, jpeg=jpeg)
-
-    return ids, matrix, coords
+	draw2d(coords, ids, jpeg=jpeg)
+	return ids, matrix, coords
 
 if __name__ == "__main__":
-    tweets = json.load(open(sys.argv[1]))
-
-    ids, matrix, coords = visualize(tweets)
+	
+    ids, matrix, coords = visualize(sys.argv[1])
     ids = [str([id]) for id in ids]
 
     for filename, obj in (("ids.csv", ids), ("matrix.csv", matrix), ("coords.csv", coords)):
         writer = csv.writer(open(filename, "wb"))
         writer.writerows(obj)
-
+		
+	
     os.system("open tweets.jpg")

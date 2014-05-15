@@ -55,16 +55,26 @@ class SentimentModel:
 	# TODO : Will be extended 
 	def scoreSentiment(self,s):
 		return -1
-			
-	def evaluateFile(self,evalFile):
-		f = open(evalFile,"r")
-		truth=[]
-		pred=[]
-		s = f.readline()
 
+
+	# 2. Training lexicon (TFIDF) approach
+	def loadLabeledFile(self,file,delim='\t'):
+		f = open(file, "r")
+		ylabels = []
+		tsvData = []
 		for s in f:
-			(tag,tweet) = s.split('\t')
-	 	
+			# Cleanup of the string (tokenization , lowercasing etc)
+			u = stringutils.clean_utf(s)
+			tag = ""
+			line = ""
+			try:
+				tag,line = u.split(delim)
+				line =  stringutils.normalize_twitter(line) 
+			except Exception as e:
+				print e
+				pass 
+				
+			asent = 2
 			# Load truth
 			if(tag=='mixed' or tag=='neutral'):
 		 		asent = 2
@@ -74,11 +84,21 @@ class SentimentModel:
 				asent = 0
 			elif(isinstance(tag,int)):
 				asent = tag
+ 		
+			ylabels.append(asent)
+			tsvData.append(line)
+
+		return tsvData,ylabels
 		
-		 	truth.append(asent)
+	def evaluateFile(self,evalFile):
 		
+		data,truth = self.loadLabeledFile(evalFile)
+		
+ 		pred=[]
+		
+		for s in data:		
 			# Load predicted 
-			p = self.scoreSentiment(tweet)
+			p = self.scoreSentiment(s)
 			pred.append(p)
 	
 	
@@ -137,9 +157,10 @@ class LogProbSentimentModel(SentimentModel):
 		prob_happy = np.reciprocal(np.exp(tweet_sad_log_prob - tweet_happy_log_prob) + 1)
 		prob_sad = 1 - prob_happy
 
-		if(prob_happy>0.95):
+		print s,tweet_happy_log_prob,tweet_sad_log_prob 
+		if(prob_happy>0.65):
 			return 1 # Positive
-		if(prob_sad >0.95):
+		if(prob_sad >0.65):
 			return 0 # Negative
 		else:
 			return 2 # Neutral
@@ -188,32 +209,9 @@ class TFIDFSentimentModel(SentimentModel):
 		else:
 			print ('Error: Nothing to train')
 
-	# 2. Training lexicon (TFIDF) approach
-	def loadTrainFile(self,delim):
-		f = open(self.trainFile, "r")
-		ylabels = []
-		tsvData = []
-		for s in f:
-			# Cleanup of the string (tokenization , lowercasing etc)
-			u = stringutils.clean_utf(s)
-			tag,line = u.split(delim)
-			line =  stringutils.normalize_twitter(line) 
-
-			label = 0
-			if(tag=='neutral'):
-				label = 2
-			elif(tag=='positive'):
-				label = 1
-			elif(isinstance(tag,int)):
-				label = tag
- 		
-			ylabels.append(label)
-			tsvData.append(line)
-
-		return tsvData,ylabels
 
 	def trainClassifier(self):
-		(X_train,y_train) = self.loadTrainFile("\t")
+		(X_train,y_train) = self.loadLabeledFile(self.trainFile,"\t")
 
 		self.vectorizer = None
 		min_n = 1 
@@ -271,11 +269,16 @@ class TFIDFSentimentModel(SentimentModel):
 		pred = self.classifier.predict(X_test)
 		probas = self.classifier.predict_proba(X_test)
  
+		#print probas 
 		# Labels (0 - Negative; 1- Positive; 2-Neutral)
 		label = 1
-		if (probas[0][0] > probas[0][1]):
+ 			
+		if (probas[0][0] > probas[0][1] and probas[0][0] > 0.25):
 			label = 0
-		elif()
+		elif (probas[0][0] < probas[0][1] and probas[0][1] > 0.25):
+			label = 1
+		else:
+			label = 2
   
 		#print label,"\t",probas[0][0],"\t",sen
 		return label
@@ -291,9 +294,9 @@ if __name__ == '__main__':
          u"It's perhaps http://twitter.com noteworthy @gmail or vambati@gmail.com that phone numbers like +1 (800) 123-4567, (800) 123-4567, and 123, 4567 are treated as words despite their whitespace."
          )
 
-     sent_classifier = TFIDFSentimentModel(trainFile=sys.argv[1])
+     #sent_classifier = TFIDFSentimentModel(trainFile=sys.argv[1])
      
-     #sent_classifier = LogProbSentimentModel(lexicon=sys.argv[1])
+     sent_classifier = LogProbSentimentModel(lexicon=sys.argv[1])
 	 
      for s in samples:
          print "======================================================================"
